@@ -3,7 +3,7 @@
 JsChardet-EastAsia
 ==================
 
-JsChardet - Port of python's [chardet](https://github.com/chardet/chardet).
+JsChardet - Port of python's [chardet](https://github.com/chardet/chardet).  
 JsChardet-EastAsia - Modified from [JsChardet](https://github.com/aadsm/jschardet), just remaining east asia characters.
 
 License
