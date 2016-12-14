@@ -1,9 +1,10 @@
 [![NPM](https://nodei.co/npm/jschardet.png?downloads=true&downloadRank=true)](https://nodei.co/npm/jschardet/)
 
-JsChardet
-=========
+JsChardet-EastAsia
+==================
 
-Port of python's chardet (https://github.com/chardet/chardet).
+JsChardet - Port of python's [chardet](https://github.com/chardet/chardet).
+JsChardet-EastAsia - Modified from [JsChardet](https://github.com/aadsm/jschardet), just remaining east asia characters.
 
 License
 -------
@@ -15,10 +16,10 @@ How To Use It
 
 ### Node
 ```   
-npm install jschardet
+npm install jschardet-eastasia
 ```
 
-    var jschardet = require("jschardet")
+    var jschardet = require("jschardet-eastasia")
 
     // "àíàçã" in UTF-8
     jschardet.detect("\xc3\xa0\xc3\xad\xc3\xa0\xc3\xa7\xc3\xa3")
@@ -29,9 +30,7 @@ npm install jschardet
     // { encoding: "Big5", confidence: 0.99 }
 
 ### Browser
-Copy and include [jschardet.min.js](https://github.com/aadsm/jschardet/tree/master/dist/jschardet.min.js) in your web page.
-
-This library is also available in [cdnjs](https://cdnjs.com) at [https://cdnjs.cloudflare.com/ajax/libs/jschardet/1.4.1/jschardet.min.js](https://cdnjs.cloudflare.com/ajax/libs/jschardet/1.4.1/jschardet.min.js)
+Copy and include [jschardet_eastasia.min.js](https://github.com/jiangzhuo/jschardet-eastasia/tree/master/dist/jschardet_eastasia.min.js) in your web page.
 
 Options
 -------
@@ -54,13 +53,6 @@ Supported Charsets
 * Big5, GB2312/GB18030, EUC-TW, HZ-GB-2312, and ISO-2022-CN (Traditional and Simplified Chinese)
 * EUC-JP, SHIFT_JIS, and ISO-2022-JP (Japanese)
 * EUC-KR and ISO-2022-KR (Korean)
-* KOI8-R, MacCyrillic, IBM855, IBM866, ISO-8859-5, and windows-1251 (Russian)
-* ISO-8859-2 and windows-1250 (Hungarian)
-* ISO-8859-5 and windows-1251 (Bulgarian)
-* windows-1252
-* ISO-8859-7 and windows-1253 (Greek)
-* ISO-8859-8 and windows-1255 (Visual and Logical Hebrew)
-* TIS-620 (Thai)
 * UTF-32 BE, LE, 3412-ordered, or 2143-ordered (with a BOM)
 * UTF-16 BE or LE (with a BOM)
 * UTF-8 (with or without a BOM)
@@ -72,14 +64,11 @@ Technical Information
 I haven't been able to create tests to correctly detect:
 
 * ISO-2022-CN
-* windows-1250 in Hungarian
-* windows-1251 in Bulgarian
-* windows-1253 in Greek
 * EUC-CN
 
 Development
 -----------
-Use `npm run dist` to update the distribution files. They're available at https://github.com/aadsm/jschardet/tree/master/dist.
+Use `npm run dist` to update the distribution files. They're available at https://github.com/jiangzhuo/jschardet-eastasia/tree/master/dist.
 
 Authors
 -------

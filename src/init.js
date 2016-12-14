@@ -52,15 +52,7 @@ require('./big5prober');
 require('./euctwprober');
 require('./mbcsgroupprober');
 require('./sbcharsetprober');
-require('./langgreekmodel');
-require('./langthaimodel');
-require('./langbulgarianmodel');
-require('./langcyrillicmodel');
-require('./hebrewprober');
-require('./langhebrewmodel');
-require('./langhungarianmodel');
 require('./sbcsgroupprober');
-require('./latin1prober');
 require('./escprober');
 require('./universaldetector');
 

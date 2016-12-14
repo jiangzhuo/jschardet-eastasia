@@ -134,9 +134,7 @@ jschardet.UniversalDetector = function() {
         } else if( this._mInputState == _state.highbyte ) {
             if( this._mCharsetProbers.length == 0 ) {
                 this._mCharsetProbers = [
-                    new jschardet.MBCSGroupProber(),
-                    new jschardet.SBCSGroupProber(),
-                    new jschardet.Latin1Prober()
+                    new jschardet.MBCSGroupProber()
                 ];
             }
             for( var i = 0, prober; prober = this._mCharsetProbers[i]; i++ ) {

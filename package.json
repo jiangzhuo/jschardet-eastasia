@@ -1,14 +1,14 @@
 {
-    "name": "jschardet",
+    "name": "jschardet-eastasia",
     "version": "1.4.1",
-    "description": "Character encoding auto-detection in JavaScript (port of python's chardet)",
+    "description": "East Asia character(Chinese,Janpanse,Korean) encoding auto-detection in JavaScript (port of python's chardet)",
     "main": "src/init",
-    "author": "António Afonso",
+    "author": "jiangzhuo",
     "license": "LGPL-2.1+",
-    "keywords": ["encoding", "charset"],
+    "keywords": ["encoding", "charset","detection","eastasia"],
     "repository" : {
         "type": "git",
-        "url": "https://github.com/aadsm/jschardet.git"
+        "url": "https://github.com/jiangzhuo/jschardet-eastasia.git"
     },
     "directories": {
         "lib": "./lib",
@@ -20,8 +20,8 @@
         "google-closure-compiler": "20151015.0.0"
     },
     "scripts": {
-        "dist-dev": "mkdir -p dist && browserify index.js -s jschardet --detect-globals false -o dist/jschardet.js",
-        "dist": "npm run dist-dev && java -jar node_modules/google-closure-compiler/compiler.jar --warning_level QUIET --compilation_level SIMPLE_OPTIMIZATIONS --js dist/jschardet.js > dist/jschardet.min.js"
+        "dist-dev": "mkdir -p dist && browserify index.js -s jschardet_eastasia --detect-globals false -o dist/jschardet_eastasia.js",
+        "dist": "npm run dist-dev && java -jar node_modules/google-closure-compiler/compiler.jar --warning_level QUIET --compilation_level SIMPLE_OPTIMIZATIONS --js dist/jschardet_eastasia.js > dist/jschardet_eastasia.min.js"
     },
     "engines": {
         "node": "*"

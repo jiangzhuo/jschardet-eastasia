@@ -641,6 +641,7 @@ function fail(message, exception, callback) {
 	if ( typeof console !== "undefined" && console.error && console.warn ) {
 		console.error(message);
 		console.error(exception);
+		console.error(exception.stack)
 		console.warn(callback.toString());
 
 	} else if ( window.opera && opera.postError ) {
@@ -818,7 +819,8 @@ QUnit.equiv = function () {
                     return false;
                 }
 
-                // stack constructor before traversing properties
+                // 
+				// constructor before traversing properties
                 callers.push(a.constructor);
 
                 for (i in a) { // be strict: don't ensures hasOwnProperty and go deep

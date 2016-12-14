@@ -1,6 +1,6 @@
-(function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.jschardet = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+(function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.jschardet_eastasia = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 module.exports = require('./src')
-},{"./src":19}],2:[function(require,module,exports){
+},{"./src":18}],2:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -931,7 +931,7 @@ jschardet.Big5CharToFreqOrder = [
 
 }(require('./init'));
 
-},{"./init":20}],3:[function(require,module,exports){
+},{"./init":19}],3:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -984,7 +984,7 @@ jschardet.Big5Prober.prototype = new jschardet.MultiByteCharSetProber();
 
 }(require('./init'));
 
-},{"./init":20}],4:[function(require,module,exports){
+},{"./init":19}],4:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -1269,7 +1269,7 @@ jschardet.EUCJPDistributionAnalysis.prototype = new jschardet.CharDistributionAn
 
 }(require('./init'));
 
-},{"./init":20}],5:[function(require,module,exports){
+},{"./init":19}],5:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -1389,7 +1389,7 @@ jschardet.CharSetGroupProber.prototype = new jschardet.CharSetProber();
 
 }(require('./init'));
 
-},{"./init":20}],6:[function(require,module,exports){
+},{"./init":19}],6:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -1459,7 +1459,7 @@ jschardet.CharSetProber = function() {
 
 }(require('./init'));
 
-},{"./init":20}],7:[function(require,module,exports){
+},{"./init":19}],7:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -1532,7 +1532,7 @@ jschardet.CodingStateMachine = function(sm) {
 
 }(require('./init'));
 
-},{"./init":20}],8:[function(require,module,exports){
+},{"./init":19}],8:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -1581,7 +1581,7 @@ jschardet.Constants = {
 
 }(require('./init'));
 
-},{"./init":20}],9:[function(require,module,exports){
+},{"./init":19}],9:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -1681,7 +1681,7 @@ jschardet.EscCharSetProber.prototype = new jschardet.CharSetProber();
 
 }(require('./init'));
 
-},{"./init":20}],10:[function(require,module,exports){
+},{"./init":19}],10:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -1937,7 +1937,7 @@ jschardet.ISO2022KRSMModel = {
 
 }(require('./init'));
 
-},{"./init":20}],11:[function(require,module,exports){
+},{"./init":19}],11:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -2041,7 +2041,7 @@ jschardet.EUCJPProber.prototype = new jschardet.MultiByteCharSetProber();
 
 }(require('./init'));
 
-},{"./init":20}],12:[function(require,module,exports){
+},{"./init":19}],12:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -2644,7 +2644,7 @@ jschardet.EUCKRCharToFreqOrder = [
 
 }(require('./init'));
 
-},{"./init":20}],13:[function(require,module,exports){
+},{"./init":19}],13:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -2697,7 +2697,7 @@ jschardet.EUCKRProber.prototype = new jschardet.MultiByteCharSetProber();
 
 }(require('./init'));
 
-},{"./init":20}],14:[function(require,module,exports){
+},{"./init":19}],14:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -3132,7 +3132,7 @@ jschardet.EUCTWCharToFreqOrder = [
 
 }(require('./init'));
 
-},{"./init":20}],15:[function(require,module,exports){
+},{"./init":19}],15:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -3185,7 +3185,7 @@ jschardet.EUCTWProber.prototype = new jschardet.MultiByteCharSetProber();
 
 }(require('./init'));
 
-},{"./init":20}],16:[function(require,module,exports){
+},{"./init":19}],16:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -3664,7 +3664,7 @@ jschardet.GB2312CharToFreqOrder = [
 
 }(require('./init'));
 
-},{"./init":20}],17:[function(require,module,exports){
+},{"./init":19}],17:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -3717,333 +3717,9 @@ jschardet.GB2312Prober.prototype = new jschardet.MultiByteCharSetProber();
 
 }(require('./init'));
 
-},{"./init":20}],18:[function(require,module,exports){
-/*
- * The Original Code is Mozilla Universal charset detector code.
- *
- * The Initial Developer of the Original Code is
- * Netscape Communications Corporation.
- * Portions created by the Initial Developer are Copyright (C) 2001
- * the Initial Developer. All Rights Reserved.
- *
- * Contributor(s):
- *   António Afonso (antonio.afonso gmail.com) - port to JavaScript
- *   Mark Pilgrim - port to Python
- *   Shy Shalom - original C code
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
- * 02110-1301  USA
- */
-
-!function(jschardet) {
-
-// This prober doesn't actually recognize a language or a charset.
-// It is a helper prober for the use of the Hebrew model probers
-
-////// General ideas of the Hebrew charset recognition //////
-//
-// Four main charsets exist in Hebrew:
-// "ISO-8859-8" - Visual Hebrew
-// "windows-1255" - Logical Hebrew
-// "ISO-8859-8-I" - Logical Hebrew
-// "x-mac-hebrew" - ?? Logical Hebrew ??
-//
-// Both "ISO" charsets use a completely identical set of code points, whereas
-// "windows-1255" and "x-mac-hebrew" are two different proper supersets of
-// these code points. windows-1255 defines additional characters in the range
-// 0x80-0x9F as some misc punctuation marks as well as some Hebrew-specific
-// diacritics and additional 'Yiddish' ligature letters in the range 0xc0-0xd6.
-// x-mac-hebrew defines similar additional code points but with a different
-// mapping.
-//
-// As far as an average Hebrew text with no diacritics is concerned, all four
-// charsets are identical with respect to code points. Meaning that for the
-// main Hebrew alphabet, all four map the same values to all 27 Hebrew letters
-// (including final letters).
-//
-// The dominant difference between these charsets is their directionality.
-// "Visual" directionality means that the text is ordered as if the renderer is
-// not aware of a BIDI rendering algorithm. The renderer sees the text and
-// draws it from left to right. The text itself when ordered naturally is read
-// backwards. A buffer of Visual Hebrew generally looks like so:
-// "[last word of first line spelled backwards] [whole line ordered backwards
-// and spelled backwards] [first word of first line spelled backwards]
-// [end of line] [last word of second line] ... etc' "
-// adding punctuation marks, numbers and English text to visual text is
-// naturally also "visual" and from left to right.
-//
-// "Logical" directionality means the text is ordered "naturally" according to
-// the order it is read. It is the responsibility of the renderer to display
-// the text from right to left. A BIDI algorithm is used to place general
-// punctuation marks, numbers and English text in the text.
-//
-// Texts in x-mac-hebrew are almost impossible to find on the Internet. From
-// what little evidence I could find, it seems that its general directionality
-// is Logical.
-//
-// To sum up all of the above, the Hebrew probing mechanism knows about two
-// charsets:
-// Visual Hebrew - "ISO-8859-8" - backwards text - Words and sentences are
-//    backwards while line order is natural. For charset recognition purposes
-//    the line order is unimportant (In fact, for this implementation, even
-//    word order is unimportant).
-// Logical Hebrew - "windows-1255" - normal, naturally ordered text.
-//
-// "ISO-8859-8-I" is a subset of windows-1255 and doesn't need to be
-//    specifically identified.
-// "x-mac-hebrew" is also identified as windows-1255. A text in x-mac-hebrew
-//    that contain special punctuation marks or diacritics is displayed with
-//    some unconverted characters showing as question marks. This problem might
-//    be corrected using another model prober for x-mac-hebrew. Due to the fact
-//    that x-mac-hebrew texts are so rare, writing another model prober isn't
-//    worth the effort and performance hit.
-//
-//////// The Prober ////////
-//
-// The prober is divided between two SBCharSetProbers and a HebrewProber,
-// all of which are managed, created, fed data, inquired and deleted by the
-// SBCSGroupProber. The two SBCharSetProbers identify that the text is in
-// fact some kind of Hebrew, Logical or Visual. The final decision about which
-// one is it is made by the HebrewProber by combining final-letter scores
-// with the scores of the two SBCharSetProbers to produce a final answer.
-//
-// The SBCSGroupProber is responsible for stripping the original text of HTML
-// tags, English characters, numbers, low-ASCII punctuation characters, spaces
-// and new lines. It reduces any sequence of such characters to a single space.
-// The buffer fed to each prober in the SBCS group prober is pure text in
-// high-ASCII.
-// The two SBCharSetProbers (model probers) share the same language model:
-// Win1255Model.
-// The first SBCharSetProber uses the model normally as any other
-// SBCharSetProber does, to recognize windows-1255, upon which this model was
-// built. The second SBCharSetProber is told to make the pair-of-letter
-// lookup in the language model backwards. This in practice exactly simulates
-// a visual Hebrew model using the windows-1255 logical Hebrew model.
-//
-// The HebrewProber is not using any language model. All it does is look for
-// final-letter evidence suggesting the text is either logical Hebrew or visual
-// Hebrew. Disjointed from the model probers, the results of the HebrewProber
-// alone are meaningless. HebrewProber always returns 0.00 as confidence
-// since it never identifies a charset by itself. Instead, the pointer to the
-// HebrewProber is passed to the model probers as a helper "Name Prober".
-// When the Group prober receives a positive identification from any prober,
-// it asks for the name of the charset identified. If the prober queried is a
-// Hebrew model prober, the model prober forwards the call to the
-// HebrewProber to make the final decision. In the HebrewProber, the
-// decision is made according to the final-letters scores maintained and Both
-// model probers scores. The answer is returned in the form of the name of the
-// charset identified, either "windows-1255" or "ISO-8859-8".
-
-jschardet.HebrewProber = function() {
-    jschardet.CharSetProber.apply(this);
-
-    // windows-1255 / ISO-8859-8 code points of interest
-    var FINAL_KAF = '\xea'
-    var NORMAL_KAF = '\xeb'
-    var FINAL_MEM = '\xed'
-    var NORMAL_MEM = '\xee'
-    var FINAL_NUN = '\xef'
-    var NORMAL_NUN = '\xf0'
-    var FINAL_PE = '\xf3'
-    var NORMAL_PE = '\xf4'
-    var FINAL_TSADI = '\xf5'
-    var NORMAL_TSADI = '\xf6'
-
-    // Minimum Visual vs Logical final letter score difference.
-    // If the difference is below this, don't rely solely on the final letter score distance.
-    var MIN_FINAL_CHAR_DISTANCE = 5
-
-    // Minimum Visual vs Logical model score difference.
-    // If the difference is below this, don't rely at all on the model score distance.
-    var MIN_MODEL_DISTANCE = 0.01
-
-    var VISUAL_HEBREW_NAME = "ISO-8859-8"
-    var LOGICAL_HEBREW_NAME = "windows-1255"
-    var self = this;
-
-    function init() {
-        self._mLogicalProber = null;
-        self._mVisualProber = null;
-        self.reset();
-    }
-
-    this.reset = function() {
-        this._mFinalCharLogicalScore = 0;
-        this._mFinalCharVisualScore = 0;
-        // The two last characters seen in the previous buffer,
-        // mPrev and mBeforePrev are initialized to space in order to simulate a word
-        // delimiter at the beginning of the data
-        this._mPrev = " ";
-        this._mBeforePrev = " ";
-        // These probers are owned by the group prober.
-    }
-
-    this.setModelProbers = function(logicalProber, visualProber) {
-        this._mLogicalProber = logicalProber;
-        this._mVisualProber = visualProber;
-    }
-
-    this.isFinal = function(c) {
-        return [FINAL_KAF, FINAL_MEM, FINAL_NUN, FINAL_PE, FINAL_TSADI].indexOf(c) != -1;
-    }
-
-    this.isNonFinal = function(c) {
-        // The normal Tsadi is not a good Non-Final letter due to words like
-        // 'lechotet' (to chat) containing an apostrophe after the tsadi. This
-        // apostrophe is converted to a space in FilterWithoutEnglishLetters causing
-        // the Non-Final tsadi to appear at an end of a word even though this is not
-        // the case in the original text.
-        // The letters Pe and Kaf rarely display a related behavior of not being a
-        // good Non-Final letter. Words like 'Pop', 'Winamp' and 'Mubarak' for
-        // example legally end with a Non-Final Pe or Kaf. However, the benefit of
-        // these letters as Non-Final letters outweighs the damage since these words
-        // are quite rare.
-        return [NORMAL_KAF, NORMAL_MEM, NORMAL_NUN, NORMAL_PE].indexOf(c) != -1;
-    }
-
-    this.feed = function(aBuf) {
-        // Final letter analysis for logical-visual decision.
-        // Look for evidence that the received buffer is either logical Hebrew or
-        // visual Hebrew.
-        // The following cases are checked:
-        // 1) A word longer than 1 letter, ending with a final letter. This is an
-        //    indication that the text is laid out "naturally" since the final letter
-        //    really appears at the end. +1 for logical score.
-        // 2) A word longer than 1 letter, ending with a Non-Final letter. In normal
-        //    Hebrew, words ending with Kaf, Mem, Nun, Pe or Tsadi, should not end with
-        //    the Non-Final form of that letter. Exceptions to this rule are mentioned
-        //    above in isNonFinal(). This is an indication that the text is laid out
-        //    backwards. +1 for visual score
-        // 3) A word longer than 1 letter, starting with a final letter. Final letters
-        //    should not appear at the beginning of a word. This is an indication that
-        //    the text is laid out backwards. +1 for visual score.
-        //
-        // The visual score and logical score are accumulated throughout the text and
-        // are finally checked against each other in GetCharSetName().
-        // No checking for final letters in the middle of words is done since that case
-        // is not an indication for either Logical or Visual text.
-        //
-        // We automatically filter out all 7-bit characters (replace them with spaces)
-        // so the word boundary detection works properly. [MAP]
-
-        if( this.getState() == jschardet.Constants.notMe ) {
-            // Both model probers say it's not them. No reason to continue.
-            return jschardet.Constants.notMe;
-        }
-
-        aBuf = this.filterHighBitOnly(aBuf);
-
-        for( var i = 0, cur; i < aBuf.length; i++ ) {
-            cur = aBuf[i];
-            if( cur == " " ) {
-                // We stand on a space - a word just ended
-                if( this._mBeforePrev != " " ) {
-                    // next-to-last char was not a space so self._mPrev is not a 1 letter word
-                    if( this.isFinal(this._mPrev) ) {
-                        // case (1) [-2:not space][-1:final letter][cur:space]
-                        this._mFinalCharLogicalScore++;
-                    } else if( this.isNonFinal(this._mPrev) ) {
-                        // case (2) [-2:not space][-1:Non-Final letter][cur:space]
-                        this._mFinalCharVisualScore++;
-                    }
-                }
-            } else {
-                // Not standing on a space
-                if( this._mBeforePrev == " " && this.isFinal(this._mPrev) && cur != " " ) {
-                    // case (3) [-2:space][-1:final letter][cur:not space]
-                    this._mFinalCharVisualScore++;
-                }
-            }
-            this._mBeforePrev = this._mPrev;
-            this._mPrev = cur;
-        }
-        // Forever detecting, till the end or until both model probers return eNotMe (handled above)
-        return jschardet.Constants.detecting;
-    }
-
-    this.getCharsetName = function() {
-        // Make the decision: is it Logical or Visual?
-        // If the final letter score distance is dominant enough, rely on it.
-        var finalsub = this._mFinalCharLogicalScore - this._mFinalCharVisualScore;
-        if( finalsub >= MIN_FINAL_CHAR_DISTANCE ) {
-            return LOGICAL_HEBREW_NAME;
-        }
-        if( finalsub <= -MIN_FINAL_CHAR_DISTANCE ) {
-            return VISUAL_HEBREW_NAME;
-        }
-
-        // It's not dominant enough, try to rely on the model scores instead.
-        var modelsub = this._mLogicalProber.getConfidence() - this._mVisualProber.getConfidence();
-        if( modelsub > MIN_MODEL_DISTANCE ) {
-            return LOGICAL_HEBREW_NAME;
-        }
-        if( modelsub < -MIN_MODEL_DISTANCE ) {
-            return VISUAL_HEBREW_NAME;
-        }
-
-        // Still no good, back to final letter distance, maybe it'll save the day.
-        if( finalsub < 0 ) {
-            return VISUAL_HEBREW_NAME;
-        }
-
-        // (finalsub > 0 - Logical) or (don't know what to do) default to Logical.
-        return LOGICAL_HEBREW_NAME;
-    }
-
-    this.getState = function() {
-        // Remain active as long as any of the model probers are active.
-        if( this._mLogicalProber.getState() == jschardet.Constants.notMe &&
-            this._mVisualProber.getState() == jschardet.Constants.notMe ) {
-            return jschardet.Constants.notMe;
-        }
-        return jschardet.Constants.detecting;
-    }
-
-    init();
-}
-jschardet.HebrewProber.prototype = new jschardet.CharSetProber();
-
-// https://developer.mozilla.org/En/Core_JavaScript_1.5_Reference/Objects/Array/IndexOf
-if (!Array.prototype.indexOf)
-{
-    Array.prototype.indexOf = function(elt /*, from*/)
-    {
-        var len = this.length >>> 0;
-
-        var from = Number(arguments[1]) || 0;
-        from = (from < 0)
-             ? Math.ceil(from)
-             : Math.floor(from);
-        if (from < 0)
-            from += len;
-
-        for (; from < len; from++)
-        {
-            if (from in this &&
-                this[from] === elt)
-                return from;
-        }
-        return -1;
-    };
-}
-
-}(require('./init'));
-
-},{"./init":20}],19:[function(require,module,exports){
+},{"./init":19}],18:[function(require,module,exports){
 module.exports = require('./init')
-},{"./init":20}],20:[function(require,module,exports){
+},{"./init":19}],19:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -4098,19 +3774,11 @@ require('./big5prober');
 require('./euctwprober');
 require('./mbcsgroupprober');
 require('./sbcharsetprober');
-require('./langgreekmodel');
-require('./langthaimodel');
-require('./langbulgarianmodel');
-require('./langcyrillicmodel');
-require('./hebrewprober');
-require('./langhebrewmodel');
-require('./langhungarianmodel');
 require('./sbcsgroupprober');
-require('./latin1prober');
 require('./escprober');
 require('./universaldetector');
 
-jschardet.VERSION = "0.1";
+jschardet.VERSION = "1.4.1";
 jschardet.detect = function(buffer) {
     var u = new jschardet.UniversalDetector();
     u.reset();
@@ -4129,7 +3797,7 @@ jschardet.log = function() {
   console.log.apply(console, arguments);
 }
 
-},{"./big5freq":2,"./big5prober":3,"./chardistribution":4,"./charsetgroupprober":5,"./charsetprober":6,"./codingstatemachine":7,"./constants":8,"./escprober":9,"./escsm":10,"./eucjpprober":11,"./euckrfreq":12,"./euckrprober":13,"./euctwfreq":14,"./euctwprober":15,"./gb2312freq":16,"./gb2312prober":17,"./hebrewprober":18,"./jisfreq":21,"./jpcntx":22,"./langbulgarianmodel":23,"./langcyrillicmodel":24,"./langgreekmodel":25,"./langhebrewmodel":26,"./langhungarianmodel":27,"./langthaimodel":28,"./latin1prober":29,"./mbcharsetprober":30,"./mbcsgroupprober":31,"./mbcssm":32,"./sbcharsetprober":33,"./sbcsgroupprober":34,"./sjisprober":35,"./universaldetector":36,"./utf8prober":37}],21:[function(require,module,exports){
+},{"./big5freq":2,"./big5prober":3,"./chardistribution":4,"./charsetgroupprober":5,"./charsetprober":6,"./codingstatemachine":7,"./constants":8,"./escprober":9,"./escsm":10,"./eucjpprober":11,"./euckrfreq":12,"./euckrprober":13,"./euctwfreq":14,"./euctwprober":15,"./gb2312freq":16,"./gb2312prober":17,"./jisfreq":20,"./jpcntx":21,"./mbcharsetprober":22,"./mbcsgroupprober":23,"./mbcssm":24,"./sbcharsetprober":25,"./sbcsgroupprober":26,"./sjisprober":27,"./universaldetector":28,"./utf8prober":29}],20:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -4704,7 +4372,7 @@ jschardet.JISCharToFreqOrder = [
 
 }(require('./init'));
 
-},{"./init":20}],22:[function(require,module,exports){
+},{"./init":19}],21:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -4948,1614 +4616,7 @@ jschardet.EUCJPContextAnalysis.prototype = new jschardet.JapaneseContextAnalysis
 
 }(require('./init'));
 
-},{"./init":20}],23:[function(require,module,exports){
-/*
- * The Original Code is Mozilla Universal charset detector code.
- *
- * The Initial Developer of the Original Code is
- * Netscape Communications Corporation.
- * Portions created by the Initial Developer are Copyright (C) 2001
- * the Initial Developer. All Rights Reserved.
- *
- * Contributor(s):
- *   António Afonso (antonio.afonso gmail.com) - port to JavaScript
- *   Mark Pilgrim - port to Python
- *   Shy Shalom - original C code
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
- * 02110-1301  USA
- */
-
-!function(jschardet) {
-
-// 255: Control characters that usually does not exist in any text
-// 254: Carriage/Return
-// 253: symbol (punctuation) that does not belong to word
-// 252: 0 - 9
-
-// Character Mapping Table:
-// this table is modified base on win1251BulgarianCharToOrderMap, so
-// only number <64 is sure valid
-
-jschardet.Latin5_BulgarianCharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253, 77, 90, 99,100, 72,109,107,101, 79,185, 81,102, 76, 94, 82,  // 40
-110,186,108, 91, 74,119, 84, 96,111,187,115,253,253,253,253,253,  // 50
-253, 65, 69, 70, 66, 63, 68,112,103, 92,194,104, 95, 86, 87, 71,  // 60
-116,195, 85, 93, 97,113,196,197,198,199,200,253,253,253,253,253,  // 70
-194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,  // 80
-210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,  // 90
- 81,226,227,228,229,230,105,231,232,233,234,235,236, 45,237,238,  // a0
- 31, 32, 35, 43, 37, 44, 55, 47, 40, 59, 33, 46, 38, 36, 41, 30,  // b0
- 39, 28, 34, 51, 48, 49, 53, 50, 54, 57, 61,239, 67,240, 60, 56,  // c0
-  1, 18,  9, 20, 11,  3, 23, 15,  2, 26, 12, 10, 14,  6,  4, 13,  // d0
-  7,  8,  5, 19, 29, 25, 22, 21, 27, 24, 17, 75, 52,241, 42, 16,  // e0
- 62,242,243,244, 58,245, 98,246,247,248,249,250,251, 91,252,253   // f0
-];
-
-jschardet.win1251BulgarianCharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253, 77, 90, 99,100, 72,109,107,101, 79,185, 81,102, 76, 94, 82,  // 40
-110,186,108, 91, 74,119, 84, 96,111,187,115,253,253,253,253,253,  // 50
-253, 65, 69, 70, 66, 63, 68,112,103, 92,194,104, 95, 86, 87, 71,  // 60
-116,195, 85, 93, 97,113,196,197,198,199,200,253,253,253,253,253,  // 70
-206,207,208,209,210,211,212,213,120,214,215,216,217,218,219,220,  // 80
-221, 78, 64, 83,121, 98,117,105,222,223,224,225,226,227,228,229,  // 90
- 88,230,231,232,233,122, 89,106,234,235,236,237,238, 45,239,240,  // a0
- 73, 80,118,114,241,242,243,244,245, 62, 58,246,247,248,249,250,  // b0
- 31, 32, 35, 43, 37, 44, 55, 47, 40, 59, 33, 46, 38, 36, 41, 30,  // c0
- 39, 28, 34, 51, 48, 49, 53, 50, 54, 57, 61,251, 67,252, 60, 56,  // d0
-  1, 18,  9, 20, 11,  3, 23, 15,  2, 26, 12, 10, 14,  6,  4, 13,  // e0
-  7,  8,  5, 19, 29, 25, 22, 21, 27, 24, 17, 75, 52,253, 42, 16   // f0
-];
-
-// Model Table:
-// total sequences: 100%
-// first 512 sequences: 96.9392%
-// first 1024 sequences:3.0618%
-// rest  sequences:     0.2992%
-// negative sequences:  0.0020%
-jschardet.BulgarianLangModel = [
-0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,3,2,3,3,3,3,3,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0,3,3,3,2,2,3,2,2,1,2,2,
-3,1,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,0,3,3,3,3,3,3,3,3,3,3,0,3,0,1,
-0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,2,3,3,3,3,3,3,3,3,0,3,1,0,
-0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-3,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,1,3,2,3,3,3,3,3,3,3,3,0,3,0,0,
-0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,2,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,1,3,2,3,3,3,3,3,3,3,3,0,3,0,0,
-0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,3,3,3,2,3,2,2,1,3,3,3,3,2,2,2,1,1,2,0,1,0,1,0,0,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,3,3,2,3,2,2,3,3,1,1,2,3,3,2,3,3,3,3,2,1,2,0,2,0,3,0,0,
-0,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,3,3,1,3,3,3,3,3,2,3,2,3,3,3,3,3,2,3,3,1,3,0,3,0,2,0,0,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,3,3,3,1,3,3,2,3,3,3,1,3,3,2,3,2,2,2,0,0,2,0,2,0,2,0,0,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,3,3,3,3,0,3,3,3,2,2,3,3,3,1,2,2,3,2,1,1,2,0,2,0,0,0,0,
-1,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,3,3,2,3,3,1,2,3,2,2,2,3,3,3,3,3,2,2,3,1,2,0,2,1,2,0,0,
-0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,1,3,3,3,3,3,2,3,3,3,2,3,3,2,3,2,2,2,3,1,2,0,1,0,1,0,0,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,3,3,3,3,3,3,1,1,1,2,2,1,3,1,3,2,2,3,0,0,1,0,1,0,1,0,0,
-0,0,0,1,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,2,2,3,2,2,3,1,2,1,1,1,2,3,1,3,1,2,2,0,1,1,1,1,0,1,0,0,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,1,3,2,2,3,3,1,2,3,1,1,3,3,3,3,1,2,2,1,1,1,0,2,0,2,0,1,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,2,2,3,3,3,2,2,1,1,2,0,2,0,1,0,0,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,
-3,0,1,2,1,3,3,2,3,3,3,3,3,2,3,2,1,0,3,1,2,1,2,1,2,3,2,1,0,1,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,1,1,2,3,3,3,3,3,3,3,3,3,3,3,3,0,0,3,1,3,3,2,3,3,2,2,2,0,1,0,0,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,3,3,3,3,0,3,3,3,3,3,2,1,1,2,1,3,3,0,3,1,1,1,1,3,2,0,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,
-3,3,2,2,2,3,3,3,3,3,3,3,3,3,3,3,1,1,3,1,3,3,2,3,2,2,2,3,0,2,0,0,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,2,3,3,2,2,3,2,1,1,1,1,1,3,1,3,1,1,0,0,0,1,0,0,0,1,0,0,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,2,3,2,0,3,2,0,3,0,2,0,0,2,1,3,1,0,0,1,0,0,0,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,2,1,1,1,1,2,1,1,2,1,1,1,2,2,1,2,1,1,1,0,1,1,0,1,0,1,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,2,1,3,1,1,2,1,3,2,1,1,0,1,2,3,2,1,1,1,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,3,3,3,3,2,2,1,0,1,0,0,1,0,0,0,2,1,0,3,0,0,1,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,2,3,2,3,3,1,3,2,1,1,1,2,1,1,2,1,3,0,1,0,0,0,1,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,1,1,2,2,3,3,2,3,2,2,2,3,1,2,2,1,1,2,1,1,2,2,0,1,1,0,1,0,2,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,2,1,3,1,0,2,2,1,3,2,1,0,0,2,0,2,0,1,0,0,0,0,0,0,0,1,0,0,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,3,1,2,0,2,3,1,2,3,2,0,1,3,1,2,1,1,1,0,0,1,0,0,2,2,2,3,
-2,2,2,2,1,2,1,1,2,2,1,1,2,0,1,1,1,0,0,1,1,0,0,1,1,0,0,0,1,1,0,1,
-3,3,3,3,3,2,1,2,2,1,2,0,2,0,1,0,1,2,1,2,1,1,0,0,0,1,0,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,
-3,3,2,3,3,1,1,3,1,0,3,2,1,0,0,0,1,2,0,2,0,1,0,0,0,1,0,1,2,1,2,2,
-1,1,1,1,1,1,1,2,2,2,1,1,1,1,1,1,1,0,1,2,1,1,1,0,0,0,0,0,1,1,0,0,
-3,1,0,1,0,2,3,2,2,2,3,2,2,2,2,2,1,0,2,1,2,1,1,1,0,1,2,1,2,2,2,1,
-1,1,2,2,2,2,1,2,1,1,0,1,2,1,2,2,2,1,1,1,0,1,1,1,1,2,0,1,0,0,0,0,
-2,3,2,3,3,0,0,2,1,0,2,1,0,0,0,0,2,3,0,2,0,0,0,0,0,1,0,0,2,0,1,2,
-2,1,2,1,2,2,1,1,1,2,1,1,1,0,1,2,2,1,1,1,1,1,0,1,1,1,0,0,1,2,0,0,
-3,3,2,2,3,0,2,3,1,1,2,0,0,0,1,0,0,2,0,2,0,0,0,1,0,1,0,1,2,0,2,2,
-1,1,1,1,2,1,0,1,2,2,2,1,1,1,1,1,1,1,0,1,1,1,0,0,0,0,0,0,1,1,0,0,
-2,3,2,3,3,0,0,3,0,1,1,0,1,0,0,0,2,2,1,2,0,0,0,0,0,0,0,0,2,0,1,2,
-2,2,1,1,1,1,1,2,2,2,1,0,2,0,1,0,1,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,
-3,3,3,3,2,2,2,2,2,0,2,1,1,1,1,2,1,2,1,1,0,2,0,1,0,1,0,0,2,0,1,2,
-1,1,1,1,1,1,1,2,2,1,1,0,2,0,1,0,2,0,0,1,1,1,0,0,2,0,0,0,1,1,0,0,
-2,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0,0,0,0,0,0,1,2,0,1,2,
-2,2,2,1,1,2,1,1,2,2,2,1,2,0,1,1,1,1,1,1,0,1,1,1,1,0,0,1,1,1,0,0,
-2,3,3,3,3,0,2,2,0,2,1,0,0,0,1,1,1,2,0,2,0,0,0,3,0,0,0,0,2,0,2,2,
-1,1,1,2,1,2,1,1,2,2,2,1,2,0,1,1,1,0,1,1,1,1,0,2,1,0,0,0,1,1,0,0,
-2,3,3,3,3,0,2,1,0,0,2,0,0,0,0,0,1,2,0,2,0,0,0,0,0,0,0,0,2,0,1,2,
-1,1,1,2,1,1,1,1,2,2,2,0,1,0,1,1,1,0,0,1,1,1,0,0,1,0,0,0,0,1,0,0,
-3,3,2,2,3,0,1,0,1,0,0,0,0,0,0,0,1,1,0,3,0,0,0,0,0,0,0,0,1,0,2,2,
-1,1,1,1,1,2,1,1,2,2,1,2,2,1,0,1,1,1,1,1,0,1,0,0,1,0,0,0,1,1,0,0,
-3,1,0,1,0,2,2,2,2,3,2,1,1,1,2,3,0,0,1,0,2,1,1,0,1,1,1,1,2,1,1,1,
-1,2,2,1,2,1,2,2,1,1,0,1,2,1,2,2,1,1,1,0,0,1,1,1,2,1,0,1,0,0,0,0,
-2,1,0,1,0,3,1,2,2,2,2,1,2,2,1,1,1,0,2,1,2,2,1,1,2,1,1,0,2,1,1,1,
-1,2,2,2,2,2,2,2,1,2,0,1,1,0,2,1,1,1,1,1,0,0,1,1,1,1,0,1,0,0,0,0,
-2,1,1,1,1,2,2,2,2,1,2,2,2,1,2,2,1,1,2,1,2,3,2,2,1,1,1,1,0,1,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,2,2,3,2,0,1,2,0,1,2,1,1,0,1,0,1,2,1,2,0,0,0,1,1,0,0,0,1,0,0,2,
-1,1,0,0,1,1,0,1,1,1,1,0,2,0,1,1,1,0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,
-2,0,0,0,0,1,2,2,2,2,2,2,2,1,2,1,1,1,1,1,1,1,0,1,1,1,1,1,2,1,1,1,
-1,2,2,2,2,1,1,2,1,2,1,1,1,0,2,1,2,1,1,1,0,2,1,1,1,1,0,1,0,0,0,0,
-3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,
-1,1,0,1,0,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,2,2,3,2,0,0,0,0,1,0,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,0,1,0,1,2,
-1,1,1,1,1,1,0,0,2,2,2,2,2,0,1,1,0,1,1,1,1,1,0,0,1,0,0,0,1,1,0,1,
-2,3,1,2,1,0,1,1,0,2,2,2,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,1,2,
-1,1,1,1,2,1,1,1,1,1,1,1,1,0,1,1,0,1,0,1,0,1,0,0,1,0,0,0,0,1,0,0,
-2,2,2,2,2,0,0,2,0,0,2,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,2,0,2,2,
-1,1,1,1,1,0,0,1,2,1,1,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,
-1,2,2,2,2,0,0,2,0,1,1,0,0,0,1,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,1,1,
-0,0,0,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
-1,2,2,3,2,0,0,1,0,0,1,0,0,0,0,0,0,1,0,2,0,0,0,1,0,0,0,0,0,0,0,2,
-1,1,0,0,1,0,0,0,1,1,0,0,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,
-2,1,2,2,2,1,2,1,2,2,1,1,2,1,1,1,0,1,1,1,1,2,0,1,0,1,1,1,1,0,1,1,
-1,1,2,1,1,1,1,1,1,0,0,1,2,1,1,1,1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,
-1,0,0,1,3,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,2,2,2,1,0,0,1,0,2,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,2,0,0,1,
-0,2,0,1,0,0,1,1,2,0,1,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,
-1,2,2,2,2,0,1,1,0,2,1,0,1,1,1,0,0,1,0,2,0,1,0,0,0,0,0,0,0,0,0,1,
-0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,
-2,2,2,2,2,0,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,
-0,1,0,1,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,
-2,0,1,0,0,1,2,1,1,1,1,1,1,2,2,1,0,0,1,0,1,0,0,0,0,1,1,1,1,0,0,0,
-1,1,2,1,1,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,2,1,2,1,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,
-0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
-0,1,1,0,1,1,1,0,0,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,
-1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,2,0,0,2,0,1,0,0,1,0,0,1,
-1,1,0,0,1,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,
-1,1,1,1,1,1,1,2,0,0,0,0,0,0,2,1,0,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,
-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,1,1,1,0,1,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-];
-
-jschardet.Latin5BulgarianModel = {
-    "charToOrderMap"        : jschardet.Latin5_BulgarianCharToOrderMap,
-    "precedenceMatrix"      : jschardet.BulgarianLangModel,
-    "mTypicalPositiveRatio" : 0.969392,
-    "keepEnglishLetter"     : false,
-    "charsetName"           : "ISO-8859-5"
-};
-
-jschardet.Win1251BulgarianModel = {
-    "charToOrderMap"        : jschardet.win1251BulgarianCharToOrderMap,
-    "precedenceMatrix"      : jschardet.BulgarianLangModel,
-    "mTypicalPositiveRatio" : 0.969392,
-    "keepEnglishLetter"     : false,
-    "charsetName"           : "windows-1251"
-};
-
-}(require('./init'));
-
-},{"./init":20}],24:[function(require,module,exports){
-/*
- * The Original Code is Mozilla Universal charset detector code.
- *
- * The Initial Developer of the Original Code is
- * Netscape Communications Corporation.
- * Portions created by the Initial Developer are Copyright (C) 2001
- * the Initial Developer. All Rights Reserved.
- *
- * Contributor(s):
- *   António Afonso (antonio.afonso gmail.com) - port to JavaScript
- *   Mark Pilgrim - port to Python
- *   Shy Shalom - original C code
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
- * 02110-1301  USA
- */
-
-!function(jschardet) {
-
-// KOI8-R language model
-// Character Mapping Table:
-jschardet.KOI8R_CharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253,142,143,144,145,146,147,148,149,150,151,152, 74,153, 75,154,  // 40
-155,156,157,158,159,160,161,162,163,164,165,253,253,253,253,253,  // 50
-253, 71,172, 66,173, 65,174, 76,175, 64,176,177, 77, 72,178, 69,  // 60
- 67,179, 78, 73,180,181, 79,182,183,184,185,253,253,253,253,253,  // 70
-191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,  // 80
-207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,  // 90
-223,224,225, 68,226,227,228,229,230,231,232,233,234,235,236,237,  // a0
-238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,  // b0
- 27,  3, 21, 28, 13,  2, 39, 19, 26,  4, 23, 11,  8, 12,  5,  1,  // c0
- 15, 16,  9,  7,  6, 14, 24, 10, 17, 18, 20, 25, 30, 29, 22, 54,  // d0
- 59, 37, 44, 58, 41, 48, 53, 46, 55, 42, 60, 36, 49, 38, 31, 34,  // e0
- 35, 43, 45, 32, 40, 52, 56, 33, 61, 62, 51, 57, 47, 63, 50, 70   // f0
-];
-
-jschardet.win1251_CharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253,142,143,144,145,146,147,148,149,150,151,152, 74,153, 75,154,  // 40
-155,156,157,158,159,160,161,162,163,164,165,253,253,253,253,253,  // 50
-253, 71,172, 66,173, 65,174, 76,175, 64,176,177, 77, 72,178, 69,  // 60
- 67,179, 78, 73,180,181, 79,182,183,184,185,253,253,253,253,253,  // 70
-191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,
-207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,
-223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,
-239,240,241,242,243,244,245,246, 68,247,248,249,250,251,252,253,
- 37, 44, 33, 46, 41, 48, 56, 51, 42, 60, 36, 49, 38, 31, 34, 35,
- 45, 32, 40, 52, 53, 55, 58, 50, 57, 63, 70, 62, 61, 47, 59, 43,
-  3, 21, 10, 19, 13,  2, 24, 20,  4, 23, 11,  8, 12,  5,  1, 15,
-  9,  7,  6, 14, 39, 26, 28, 22, 25, 29, 54, 18, 17, 30, 27, 16
-];
-
-jschardet.latin5_CharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253,142,143,144,145,146,147,148,149,150,151,152, 74,153, 75,154,  // 40
-155,156,157,158,159,160,161,162,163,164,165,253,253,253,253,253,  // 50
-253, 71,172, 66,173, 65,174, 76,175, 64,176,177, 77, 72,178, 69,  // 60
- 67,179, 78, 73,180,181, 79,182,183,184,185,253,253,253,253,253,  // 70
-191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,
-207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,
-223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,
- 37, 44, 33, 46, 41, 48, 56, 51, 42, 60, 36, 49, 38, 31, 34, 35,
- 45, 32, 40, 52, 53, 55, 58, 50, 57, 63, 70, 62, 61, 47, 59, 43,
-  3, 21, 10, 19, 13,  2, 24, 20,  4, 23, 11,  8, 12,  5,  1, 15,
-  9,  7,  6, 14, 39, 26, 28, 22, 25, 29, 54, 18, 17, 30, 27, 16,
-239, 68,240,241,242,243,244,245,246,247,248,249,250,251,252,255
-];
-
-jschardet.macCyrillic_CharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253,142,143,144,145,146,147,148,149,150,151,152, 74,153, 75,154,  // 40
-155,156,157,158,159,160,161,162,163,164,165,253,253,253,253,253,  // 50
-253, 71,172, 66,173, 65,174, 76,175, 64,176,177, 77, 72,178, 69,  // 60
- 67,179, 78, 73,180,181, 79,182,183,184,185,253,253,253,253,253,  // 70
- 37, 44, 33, 46, 41, 48, 56, 51, 42, 60, 36, 49, 38, 31, 34, 35,
- 45, 32, 40, 52, 53, 55, 58, 50, 57, 63, 70, 62, 61, 47, 59, 43,
-191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,
-207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,
-223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,
-239,240,241,242,243,244,245,246,247,248,249,250,251,252, 68, 16,
-  3, 21, 10, 19, 13,  2, 24, 20,  4, 23, 11,  8, 12,  5,  1, 15,
-  9,  7,  6, 14, 39, 26, 28, 22, 25, 29, 54, 18, 17, 30, 27,255
-];
-
-jschardet.IBM855_CharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253,142,143,144,145,146,147,148,149,150,151,152, 74,153, 75,154,  // 40
-155,156,157,158,159,160,161,162,163,164,165,253,253,253,253,253,  // 50
-253, 71,172, 66,173, 65,174, 76,175, 64,176,177, 77, 72,178, 69,  // 60
- 67,179, 78, 73,180,181, 79,182,183,184,185,253,253,253,253,253,  // 70
-191,192,193,194, 68,195,196,197,198,199,200,201,202,203,204,205,
-206,207,208,209,210,211,212,213,214,215,216,217, 27, 59, 54, 70,
-  3, 37, 21, 44, 28, 58, 13, 41,  2, 48, 39, 53, 19, 46,218,219,
-220,221,222,223,224, 26, 55,  4, 42,225,226,227,228, 23, 60,229,
-230,231,232,233,234,235, 11, 36,236,237,238,239,240,241,242,243,
-  8, 49, 12, 38,  5, 31,  1, 34, 15,244,245,246,247, 35, 16,248,
- 43,  9, 45,  7, 32,  6, 40, 14, 52, 24, 56, 10, 33, 17, 61,249,
-250, 18, 62, 20, 51, 25, 57, 30, 47, 29, 63, 22, 50,251,252,255
-];
-
-jschardet.IBM866_CharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253,142,143,144,145,146,147,148,149,150,151,152, 74,153, 75,154,  // 40
-155,156,157,158,159,160,161,162,163,164,165,253,253,253,253,253,  // 50
-253, 71,172, 66,173, 65,174, 76,175, 64,176,177, 77, 72,178, 69,  // 60
- 67,179, 78, 73,180,181, 79,182,183,184,185,253,253,253,253,253,  // 70
- 37, 44, 33, 46, 41, 48, 56, 51, 42, 60, 36, 49, 38, 31, 34, 35,
- 45, 32, 40, 52, 53, 55, 58, 50, 57, 63, 70, 62, 61, 47, 59, 43,
-  3, 21, 10, 19, 13,  2, 24, 20,  4, 23, 11,  8, 12,  5,  1, 15,
-191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,
-207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,
-223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,
-  9,  7,  6, 14, 39, 26, 28, 22, 25, 29, 54, 18, 17, 30, 27, 16,
-239, 68,240,241,242,243,244,245,246,247,248,249,250,251,252,255
-];
-
-// Model Table:
-// total sequences: 100%
-// first 512 sequences: 97.6601%
-// first 1024 sequences: 2.3389%
-// rest  sequences:      0.1237%
-// negative sequences:   0.0009%
-jschardet.RussianLangModel = [
-0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,3,3,3,3,1,3,3,3,2,3,2,3,3,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0,3,2,2,2,2,2,0,0,2,
-3,3,3,2,3,3,3,3,3,3,3,3,3,3,2,3,3,0,0,3,3,3,3,3,3,3,3,3,2,3,2,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,2,2,3,3,3,3,3,3,3,3,3,2,3,3,0,0,3,3,3,3,3,3,3,3,2,3,3,1,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,2,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,0,0,3,3,3,3,3,3,3,3,3,3,3,2,1,
-0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,0,0,3,3,3,3,3,3,3,3,3,3,3,2,1,
-0,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,2,2,2,3,1,3,3,1,3,3,3,3,2,2,3,0,2,2,2,3,3,2,1,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,2,3,3,3,3,3,2,2,3,2,3,3,3,2,1,2,2,0,1,2,2,2,2,2,2,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,3,0,2,2,3,3,2,1,2,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,2,3,3,1,2,3,2,2,3,2,3,3,3,3,2,2,3,0,3,2,2,3,1,1,1,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,2,2,3,3,3,3,3,2,3,3,3,3,2,2,2,0,3,3,3,2,2,2,2,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,3,3,2,3,2,3,3,3,3,3,3,2,3,2,2,0,1,3,2,1,2,2,1,0,
-0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,3,3,3,2,1,1,3,0,1,1,1,1,2,1,1,0,2,2,2,1,2,0,1,0,
-0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,2,3,3,2,2,2,2,1,3,2,3,2,3,2,1,2,2,0,1,1,2,1,2,1,2,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,3,3,3,3,2,2,3,2,3,3,3,2,2,2,2,0,2,2,2,2,3,1,1,0,
-0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,
-3,2,3,2,2,3,3,3,3,3,3,3,3,3,1,3,2,0,0,3,3,3,3,2,3,3,3,3,2,3,2,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,3,3,3,3,3,2,2,3,3,0,2,1,0,3,2,3,2,3,0,0,1,2,0,0,1,0,1,2,1,1,0,
-0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,0,3,0,2,3,3,3,3,2,3,3,3,3,1,2,2,0,0,2,3,2,2,2,3,2,3,2,2,3,0,0,
-0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,2,3,0,2,3,2,3,0,1,2,3,3,2,0,2,3,0,0,2,3,2,2,0,1,3,1,3,2,2,1,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,1,3,0,2,3,3,3,3,3,3,3,3,2,1,3,2,0,0,2,2,3,3,3,2,3,3,0,2,2,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,2,2,3,3,2,2,2,3,3,0,0,1,1,1,1,1,2,0,0,1,1,1,1,0,1,0,
-0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,2,2,3,3,3,3,3,3,3,0,3,2,3,3,2,3,2,0,2,1,0,1,1,0,1,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,2,3,3,3,2,2,2,2,3,1,3,2,3,1,1,2,1,0,2,2,2,2,1,3,1,0,
-0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,
-2,2,3,3,3,3,3,1,2,2,1,3,1,0,3,0,0,3,0,0,0,1,1,0,1,2,1,0,0,0,0,0,
-0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,2,2,1,1,3,3,3,2,2,1,2,2,3,1,1,2,0,0,2,2,1,3,0,0,2,1,1,2,1,1,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,2,3,3,3,3,1,2,2,2,1,2,1,3,3,1,1,2,1,2,1,2,2,0,2,0,0,1,1,0,1,0,
-0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,3,3,3,3,3,2,1,3,2,2,3,2,0,3,2,0,3,0,1,0,1,1,0,0,1,1,1,1,0,1,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,2,3,3,3,2,2,2,3,3,1,2,1,2,1,0,1,0,1,1,0,1,0,0,2,1,1,1,0,1,0,
-0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
-3,1,1,2,1,2,3,3,2,2,1,2,2,3,0,2,1,0,0,2,2,3,2,1,2,2,2,2,2,3,1,0,
-0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,1,1,0,1,1,2,2,1,1,3,0,0,1,3,1,1,1,0,0,0,1,0,1,1,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,1,3,3,3,2,0,0,0,2,1,0,1,0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,0,1,0,0,2,3,2,2,2,1,2,2,2,1,2,1,0,0,1,1,1,0,2,0,1,1,1,0,0,1,1,
-1,0,0,0,0,0,1,2,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,
-2,3,3,3,3,0,0,0,0,1,0,0,0,0,3,0,1,2,1,0,0,0,0,0,0,0,1,1,0,0,1,1,
-1,0,1,0,1,2,0,0,1,1,2,1,0,1,1,1,1,0,1,1,1,1,0,1,0,0,1,0,0,1,1,0,
-2,2,3,2,2,2,3,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,0,1,0,1,1,1,0,2,1,
-1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,1,0,1,1,0,
-3,3,3,2,2,2,2,3,2,2,1,1,2,2,2,2,1,1,3,1,2,1,2,0,0,1,1,0,1,0,2,1,
-1,1,1,1,1,2,1,0,1,1,1,1,0,1,0,0,1,1,0,0,1,0,1,0,0,1,0,0,0,1,1,0,
-2,0,0,1,0,3,2,2,2,2,1,2,1,2,1,2,0,0,0,2,1,2,2,1,1,2,2,0,1,1,0,2,
-1,1,1,1,1,0,1,1,1,2,1,1,1,2,1,0,1,2,1,1,1,1,0,1,1,1,0,0,1,0,0,1,
-1,3,2,2,2,1,1,1,2,3,0,0,0,0,2,0,2,2,1,0,0,0,0,0,0,1,0,0,0,0,1,1,
-1,0,1,1,0,1,0,1,1,0,1,1,0,2,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,0,
-2,3,2,3,2,1,2,2,2,2,1,0,0,0,2,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,2,1,
-1,1,2,1,0,2,0,0,1,0,1,0,0,1,0,0,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,
-3,0,0,1,0,2,2,2,3,2,2,2,2,2,2,2,0,0,0,2,1,2,1,1,1,2,2,0,0,0,1,2,
-1,1,1,1,1,0,1,2,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,0,0,1,
-2,3,2,3,3,2,0,1,1,1,0,0,1,0,2,0,1,1,3,1,0,0,0,0,0,0,0,1,0,0,2,1,
-1,1,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,0,0,1,1,0,1,0,0,0,0,0,0,1,0,
-2,3,3,3,3,1,2,2,2,2,0,1,1,0,2,1,1,1,2,1,0,1,1,0,0,1,0,1,0,0,2,0,
-0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,3,3,3,2,0,0,1,1,2,2,1,0,0,2,0,1,1,3,0,0,1,0,0,0,0,0,1,0,1,2,1,
-1,1,2,0,1,1,1,0,1,0,1,1,0,1,0,1,1,1,1,0,1,0,0,0,0,0,0,1,0,1,1,0,
-1,3,2,3,2,1,0,0,2,2,2,0,1,0,2,0,1,1,1,0,1,0,0,0,3,0,1,1,0,0,2,1,
-1,1,1,0,1,1,0,0,0,0,1,1,0,1,0,0,2,1,1,0,1,0,0,0,1,0,1,0,0,1,1,0,
-3,1,2,1,1,2,2,2,2,2,2,1,2,2,1,1,0,0,0,2,2,2,0,0,0,1,2,1,0,1,0,1,
-2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,2,1,1,1,0,1,0,1,1,0,1,1,1,0,0,1,
-3,0,0,0,0,2,0,1,1,1,1,1,1,1,0,1,0,0,0,1,1,1,0,1,0,1,1,0,0,1,0,1,
-1,1,0,0,1,0,0,0,1,0,1,1,0,0,1,0,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,
-1,3,3,2,2,0,0,0,2,2,0,0,0,1,2,0,1,1,2,0,0,0,0,0,0,0,0,1,0,0,2,1,
-0,1,1,0,0,1,1,0,0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,
-2,3,2,3,2,0,0,0,0,1,1,0,0,0,2,0,2,0,2,0,0,0,0,0,1,0,0,1,0,0,1,1,
-1,1,2,0,1,2,1,0,1,1,2,1,1,1,1,1,2,1,1,0,1,0,0,1,1,1,1,1,0,1,1,0,
-1,3,2,2,2,1,0,0,2,2,1,0,1,2,2,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,
-0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
-1,0,0,1,0,2,3,1,2,2,2,2,2,2,1,1,0,0,0,1,0,1,0,2,1,1,1,0,0,0,0,1,
-1,1,0,1,1,0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
-2,0,2,0,0,1,0,3,2,1,2,1,2,2,0,1,0,0,0,2,1,0,0,2,1,1,1,1,0,2,0,2,
-2,1,1,1,1,1,1,1,1,1,1,1,1,2,1,0,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,1,
-1,2,2,2,2,1,0,0,1,0,0,0,0,0,2,0,1,1,1,1,0,0,0,0,1,0,1,2,0,0,2,0,
-1,0,1,1,1,2,1,0,1,0,1,1,0,0,1,0,1,1,1,0,1,0,0,0,1,0,0,1,0,1,1,0,
-2,1,2,2,2,0,3,0,1,1,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-0,0,0,1,1,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,
-1,2,2,3,2,2,0,0,1,1,2,0,1,2,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,
-0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,0,
-2,2,1,1,2,1,2,2,2,2,2,1,2,2,0,1,0,0,0,1,2,2,2,1,2,1,1,1,1,1,2,1,
-1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,1,1,1,0,0,0,0,1,1,1,0,1,1,0,0,1,
-1,2,2,2,2,0,1,0,2,2,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,
-0,0,1,0,0,1,0,0,0,0,1,0,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
-0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,2,2,2,2,0,0,0,2,2,2,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
-0,1,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,2,2,2,2,0,0,0,0,1,0,0,1,1,2,0,0,0,0,1,0,1,0,0,1,0,0,2,0,0,0,1,
-0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,
-1,2,2,2,1,1,2,0,2,1,1,1,1,0,2,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,
-0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
-1,0,2,1,2,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,
-0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,
-1,0,0,0,0,2,0,1,2,1,0,1,1,1,0,1,0,0,0,1,0,1,0,0,1,0,1,0,0,0,0,1,
-0,0,0,0,0,1,0,0,1,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,
-2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-1,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,
-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-1,1,1,0,1,0,1,0,0,1,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,
-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-1,1,0,1,1,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,0,0,1,0,1,1,0,1,0,0,0,
-0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-];
-
-jschardet.Koi8rModel = {
-    "charToOrderMap"          : jschardet.KOI8R_CharToOrderMap,
-    "precedenceMatrix"        : jschardet.RussianLangModel,
-    "mTypicalPositiveRatio"   : 0.976601,
-    "keepEnglishLetter"       : false,
-    "charsetName"             : "KOI8-R"
-};
-
-jschardet.Win1251CyrillicModel = {
-    "charToOrderMap"          : jschardet.win1251_CharToOrderMap,
-    "precedenceMatrix"        : jschardet.RussianLangModel,
-    "mTypicalPositiveRatio"   : 0.976601,
-    "keepEnglishLetter"       : false,
-    "charsetName"             : "windows-1251"
-};
-
-jschardet.Latin5CyrillicModel = {
-    "charToOrderMap"          : jschardet.latin5_CharToOrderMap,
-    "precedenceMatrix"        : jschardet.RussianLangModel,
-    "mTypicalPositiveRatio"   : 0.976601,
-    "keepEnglishLetter"       : false,
-    "charsetName"             : "ISO-8859-5"
-};
-
-jschardet.MacCyrillicModel = {
-    "charToOrderMap"          : jschardet.macCyrillic_CharToOrderMap,
-    "precedenceMatrix"        : jschardet.RussianLangModel,
-    "mTypicalPositiveRatio"   : 0.976601,
-    "keepEnglishLetter"       : false,
-    "charsetName"             : "MacCyrillic"
-};
-
-jschardet.Ibm866Model = {
-    "charToOrderMap"          : jschardet.IBM866_CharToOrderMap,
-    "precedenceMatrix"        : jschardet.RussianLangModel,
-    "mTypicalPositiveRatio"   : 0.976601,
-    "keepEnglishLetter"       : false,
-    "charsetName"             : "IBM866"
-};
-
-jschardet.Ibm855Model = {
-    "charToOrderMap"          : jschardet.IBM855_CharToOrderMap,
-    "precedenceMatrix"        : jschardet.RussianLangModel,
-    "mTypicalPositiveRatio"   : 0.976601,
-    "keepEnglishLetter"       : false,
-    "charsetName"             : "IBM855"
-};
-
-}(require('./init'));
-
-},{"./init":20}],25:[function(require,module,exports){
-/*
- * The Original Code is Mozilla Universal charset detector code.
- *
- * The Initial Developer of the Original Code is
- * Netscape Communications Corporation.
- * Portions created by the Initial Developer are Copyright (C) 2001
- * the Initial Developer. All Rights Reserved.
- *
- * Contributor(s):
- *   António Afonso (antonio.afonso gmail.com) - port to JavaScript
- *   Mark Pilgrim - port to Python
- *   Shy Shalom - original C code
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
- * 02110-1301  USA
- */
-
-!function(jschardet) {
-
-// 255: Control characters that usually does not exist in any text
-// 254: Carriage/Return
-// 253: symbol (punctuation) that does not belong to word
-// 252: 0 - 9
-
-// Character Mapping Table:
-jschardet.Latin7_CharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253, 82,100,104, 94, 98,101,116,102,111,187,117, 92, 88,113, 85,  // 40
- 79,118,105, 83, 67,114,119, 95, 99,109,188,253,253,253,253,253,  // 50
-253, 72, 70, 80, 81, 60, 96, 93, 89, 68,120, 97, 77, 86, 69, 55,  // 60
- 78,115, 65, 66, 58, 76,106,103, 87,107,112,253,253,253,253,253,  // 70
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 80
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 90
-253,233, 90,253,253,253,253,253,253,253,253,253,253, 74,253,253,  // a0
-253,253,253,253,247,248, 61, 36, 46, 71, 73,253, 54,253,108,123,  // b0
-110, 31, 51, 43, 41, 34, 91, 40, 52, 47, 44, 53, 38, 49, 59, 39,  // c0
- 35, 48,250, 37, 33, 45, 56, 50, 84, 57,120,121, 17, 18, 22, 15,  // d0
-124,  1, 29, 20, 21,  3, 32, 13, 25,  5, 11, 16, 10,  6, 30,  4,  // e0
-  9,  8, 14,  7,  2, 12, 28, 23, 42, 24, 64, 75, 19, 26, 27,253   // f0
-];
-
-jschardet.win1253_CharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253, 82,100,104, 94, 98,101,116,102,111,187,117, 92, 88,113, 85,  // 40
- 79,118,105, 83, 67,114,119, 95, 99,109,188,253,253,253,253,253,  // 50
-253, 72, 70, 80, 81, 60, 96, 93, 89, 68,120, 97, 77, 86, 69, 55,  // 60
- 78,115, 65, 66, 58, 76,106,103, 87,107,112,253,253,253,253,253,  // 70
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 80
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 90
-253,233, 61,253,253,253,253,253,253,253,253,253,253, 74,253,253,  // a0
-253,253,253,253,247,253,253, 36, 46, 71, 73,253, 54,253,108,123,  // b0
-110, 31, 51, 43, 41, 34, 91, 40, 52, 47, 44, 53, 38, 49, 59, 39,  // c0
- 35, 48,250, 37, 33, 45, 56, 50, 84, 57,120,121, 17, 18, 22, 15,  // d0
-124,  1, 29, 20, 21,  3, 32, 13, 25,  5, 11, 16, 10,  6, 30,  4,  // e0
-  9,  8, 14,  7,  2, 12, 28, 23, 42, 24, 64, 75, 19, 26, 27,253   // f0
-]
-
-// Model Table:
-// total sequences: 100%
-// first 512 sequences: 98.2851%
-// first 1024 sequences:1.7001%
-// rest  sequences:     0.0359%
-// negative sequences:  0.0148%
-jschardet.GreekLangModel = [
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,3,2,2,3,3,3,3,3,3,3,3,1,3,3,3,0,2,2,3,3,0,3,0,3,2,0,3,3,3,0,
-3,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,3,3,3,0,3,3,0,3,2,3,3,0,3,2,3,3,3,0,0,3,0,3,0,3,3,2,0,0,0,
-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,
-0,2,3,2,2,3,3,3,3,3,3,3,3,0,3,3,3,3,0,2,3,3,0,3,3,3,3,2,3,3,3,0,
-2,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,2,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,0,2,1,3,3,3,3,2,3,3,2,3,3,2,0,
-0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,3,3,0,3,3,3,3,3,3,0,3,3,0,3,3,3,3,3,3,3,3,3,3,0,3,2,3,3,0,
-2,0,1,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
-0,3,3,3,3,3,2,3,0,0,0,0,3,3,0,3,1,3,3,3,0,3,3,0,3,3,3,3,0,0,0,0,
-2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,3,3,3,0,3,0,3,3,3,3,3,0,3,2,2,2,3,0,2,3,3,3,3,3,2,3,3,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,3,3,3,3,2,2,2,3,3,3,3,0,3,1,3,3,3,3,2,3,3,3,3,3,3,3,2,2,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,3,3,3,2,0,3,0,0,0,3,3,2,3,3,3,3,3,0,0,3,2,3,0,2,3,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,0,3,3,3,3,0,0,3,3,0,2,3,0,3,0,3,3,3,0,0,3,0,3,0,2,2,3,3,0,0,
-0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,3,3,3,2,0,3,2,3,3,3,3,0,3,3,3,3,3,0,3,3,2,3,2,3,3,2,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,2,3,2,3,3,3,3,3,3,0,2,3,2,3,2,2,2,3,2,3,3,2,3,0,2,2,2,3,0,
-2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,3,0,0,0,3,3,3,2,3,3,0,0,3,0,3,0,0,0,3,2,0,3,0,3,0,0,2,0,2,0,
-0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,3,3,0,3,3,3,3,3,3,0,3,3,0,3,0,0,0,3,3,0,3,3,3,0,0,1,2,3,0,
-3,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,3,3,3,2,0,0,3,2,2,3,3,0,3,3,3,3,3,2,1,3,0,3,2,3,3,2,1,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,3,3,0,2,3,3,3,3,3,3,0,0,3,0,3,0,0,0,3,3,0,3,2,3,0,0,3,3,3,0,
-3,0,0,0,2,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,3,3,0,3,3,3,3,3,3,0,0,3,0,3,0,0,0,3,2,0,3,2,3,0,0,3,2,3,0,
-2,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,3,1,2,2,3,3,3,3,3,3,0,2,3,0,3,0,0,0,3,3,0,3,0,2,0,0,2,3,1,0,
-2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,0,3,3,3,3,0,3,0,3,3,2,3,0,3,3,3,3,3,3,0,3,3,3,0,2,3,0,0,3,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,0,3,3,3,0,0,3,0,0,0,3,3,0,3,0,2,3,3,0,0,3,0,3,0,3,3,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,3,0,0,0,3,3,3,3,3,3,0,0,3,0,2,0,0,0,3,3,0,3,0,3,0,0,2,0,2,0,
-0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,3,3,3,3,0,3,0,2,0,3,2,0,3,2,3,2,3,0,0,3,2,3,2,3,3,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,3,0,0,2,3,3,3,3,3,0,0,0,3,0,2,1,0,0,3,2,2,2,0,3,0,0,2,2,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,0,3,3,3,2,0,3,0,3,0,3,3,0,2,1,2,3,3,0,0,3,0,3,0,3,3,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,2,3,3,3,0,3,3,3,3,3,3,0,2,3,0,3,0,0,0,2,1,0,2,2,3,0,0,2,2,2,0,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,3,0,0,2,3,3,3,2,3,0,0,1,3,0,2,0,0,0,0,3,0,1,0,2,0,0,1,1,1,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,3,3,3,1,0,3,0,0,0,3,2,0,3,2,3,3,3,0,0,3,0,3,2,2,2,1,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,0,3,3,3,0,0,3,0,0,0,0,2,0,2,3,3,2,2,2,2,3,0,2,0,2,2,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,3,3,2,0,0,0,0,0,0,2,3,0,2,0,2,3,2,0,0,3,0,3,0,3,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,3,2,3,3,2,2,3,0,2,0,3,0,0,0,2,0,0,0,0,1,2,0,2,0,2,0,
-0,2,0,2,0,2,2,0,0,1,0,2,2,2,0,2,2,2,0,2,2,2,0,0,2,0,0,1,0,0,0,0,
-0,2,0,3,3,2,0,0,0,0,0,0,1,3,0,2,0,2,2,2,0,0,2,0,3,0,0,2,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,0,2,3,2,0,2,2,0,2,0,2,2,0,2,0,2,2,2,0,0,0,0,0,0,2,3,0,0,0,2,
-0,1,2,0,0,0,0,2,2,0,0,0,2,1,0,2,2,0,0,0,0,0,0,1,0,2,0,0,0,0,0,0,
-0,0,2,1,0,2,3,2,2,3,2,3,2,0,0,3,3,3,0,0,3,2,0,0,0,1,1,0,2,0,2,2,
-0,2,0,2,0,2,2,0,0,2,0,2,2,2,0,2,2,2,2,0,0,2,0,0,0,2,0,1,0,0,0,0,
-0,3,0,3,3,2,2,0,3,0,0,0,2,2,0,2,2,2,1,2,0,0,1,2,2,0,0,3,0,0,0,2,
-0,1,2,0,0,0,1,2,0,0,0,0,0,0,0,2,2,0,1,0,0,2,0,0,0,2,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,2,3,3,2,2,0,0,0,2,0,2,3,3,0,2,0,0,0,0,0,0,2,2,2,0,2,2,0,2,0,2,
-0,2,2,0,0,2,2,2,2,1,0,0,2,2,0,2,0,0,2,0,0,0,0,0,0,2,0,0,0,0,0,0,
-0,2,0,3,2,3,0,0,0,3,0,0,2,2,0,2,0,2,2,2,0,0,2,0,0,0,0,0,0,0,0,2,
-0,0,2,2,0,0,2,2,2,0,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,2,0,0,3,2,0,2,2,2,2,2,0,0,0,2,0,0,0,0,2,0,1,0,0,2,0,1,0,0,0,
-0,2,2,2,0,2,2,0,1,2,0,2,2,2,0,2,2,2,2,1,2,2,0,0,2,0,0,0,0,0,0,0,
-0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
-0,2,0,2,0,2,2,0,0,0,0,1,2,1,0,0,2,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,3,2,3,0,0,2,0,0,0,2,2,0,2,0,0,0,1,0,0,2,0,2,0,2,2,0,0,0,0,
-0,0,2,0,0,0,0,2,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,
-0,2,2,3,2,2,0,0,0,0,0,0,1,3,0,2,0,2,2,0,0,0,1,0,2,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,2,0,2,0,3,2,0,2,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-0,0,2,0,0,0,0,1,1,0,0,2,1,2,0,2,2,0,1,0,0,1,0,0,0,2,0,0,0,0,0,0,
-0,3,0,2,2,2,0,0,2,0,0,0,2,0,0,0,2,3,0,2,0,0,0,0,0,0,2,2,0,0,0,2,
-0,1,2,0,0,0,1,2,2,1,0,0,0,2,0,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,2,1,2,0,2,2,0,2,0,0,2,0,0,0,0,1,2,1,0,2,1,0,0,0,0,0,0,0,0,0,0,
-0,0,2,0,0,0,3,1,2,2,0,2,0,0,0,0,2,0,0,0,2,0,0,3,0,0,0,0,2,2,2,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,2,1,0,2,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,2,
-0,2,2,0,0,2,2,2,2,2,0,1,2,0,0,0,2,2,0,1,0,2,0,0,2,2,0,0,0,0,0,0,
-0,0,0,0,1,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0,2,
-0,1,2,0,0,0,0,2,2,1,0,1,0,1,0,2,2,2,1,0,0,0,0,0,0,1,0,0,0,0,0,0,
-0,2,0,1,2,0,0,0,0,0,0,0,0,0,0,2,0,0,2,2,0,0,0,0,1,0,0,0,0,0,0,2,
-0,2,2,0,0,0,0,2,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,2,0,0,2,0,0,0,
-0,2,2,2,2,0,0,0,3,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2,0,0,0,0,0,0,1,
-0,0,2,0,0,0,0,1,2,0,0,0,0,0,0,2,2,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,
-0,2,0,2,2,2,0,0,2,0,0,0,0,0,0,0,2,2,2,0,0,0,2,0,0,0,0,0,0,0,0,2,
-0,0,1,0,0,0,0,2,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,
-0,3,0,2,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0,2,
-0,0,2,0,0,0,0,2,2,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,2,0,2,2,1,0,0,0,0,0,0,2,0,0,2,0,2,2,2,0,0,0,0,0,0,2,0,0,0,0,2,
-0,0,2,0,0,2,0,2,2,0,0,0,0,2,0,2,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,
-0,0,3,0,0,0,2,2,0,2,2,0,0,0,0,0,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0,
-0,2,2,2,2,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,
-0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,2,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
-0,2,0,0,0,2,0,0,0,0,0,1,0,0,0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,2,0,0,0,
-0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,2,0,2,0,0,0,
-0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,2,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-];
-
-jschardet.Latin7GreekModel = {
-    "charToOrderMap"        : jschardet.Latin7_CharToOrderMap,
-    "precedenceMatrix"      : jschardet.GreekLangModel,
-    "mTypicalPositiveRatio" : 0.982851,
-    "keepEnglishLetter"     : false,
-    "charsetName"           : "ISO-8859-7"
-};
-
-jschardet.Win1253GreekModel = {
-    "charToOrderMap"        : jschardet.win1253_CharToOrderMap,
-    "precedenceMatrix"      : jschardet.GreekLangModel,
-    "mTypicalPositiveRatio" : 0.982851,
-    "keepEnglishLetter"     : false,
-    "charsetName"           : "windows-1253"
-};
-
-}(require('./init'));
-
-},{"./init":20}],26:[function(require,module,exports){
-/*
- * The Original Code is Mozilla Universal charset detector code.
- *
- * The Initial Developer of the Original Code is
- * Netscape Communications Corporation.
- * Portions created by the Initial Developer are Copyright (C) 2001
- * the Initial Developer. All Rights Reserved.
- *
- * Contributor(s):
- *   António Afonso (antonio.afonso gmail.com) - port to JavaScript
- *   Mark Pilgrim - port to Python
- *   Shy Shalom - original C code
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
- * 02110-1301  USA
- */
-
-!function(jschardet) {
-
-// 255: Control characters that usually does not exist in any text
-// 254: Carriage/Return
-// 253: symbol (punctuation) that does not belong to word
-// 252: 0 - 9
-
-// Windows-1255 language model
-// Character Mapping Table:
-jschardet.win1255_CharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253, 69, 91, 79, 80, 92, 89, 97, 90, 68,111,112, 82, 73, 95, 85,  // 40
- 78,121, 86, 71, 67,102,107, 84,114,103,115,253,253,253,253,253,  // 50
-253, 50, 74, 60, 61, 42, 76, 70, 64, 53,105, 93, 56, 65, 54, 49,  // 60
- 66,110, 51, 43, 44, 63, 81, 77, 98, 75,108,253,253,253,253,253,  // 70
-124,202,203,204,205, 40, 58,206,207,208,209,210,211,212,213,214,
-215, 83, 52, 47, 46, 72, 32, 94,216,113,217,109,218,219,220,221,
- 34,116,222,118,100,223,224,117,119,104,125,225,226, 87, 99,227,
-106,122,123,228, 55,229,230,101,231,232,120,233, 48, 39, 57,234,
- 30, 59, 41, 88, 33, 37, 36, 31, 29, 35,235, 62, 28,236,126,237,
-238, 38, 45,239,240,241,242,243,127,244,245,246,247,248,249,250,
-  9,  8, 20, 16,  3,  2, 24, 14, 22,  1, 25, 15,  4, 11,  6, 23,
- 12, 19, 13, 26, 18, 27, 21, 17,  7, 10,  5,251,252,128, 96,253
-];
-
-// Model Table:
-// total sequences: 100%
-// first 512 sequences: 98.4004%
-// first 1024 sequences: 1.5981%
-// rest  sequences:      0.087%
-// negative sequences:   0.0015%
-jschardet.HebrewLangModel = [
-0,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,2,3,2,1,2,0,1,0,0,
-3,0,3,1,0,0,1,3,2,0,1,1,2,0,2,2,2,1,1,1,1,2,1,1,1,2,0,0,2,2,0,1,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,
-1,2,1,2,1,2,0,0,2,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,
-1,2,1,3,1,1,0,0,2,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,0,1,2,2,1,3,
-1,2,1,1,2,2,0,0,2,2,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,2,2,2,2,3,2,
-1,2,1,2,2,2,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,2,3,2,2,3,2,2,2,1,2,2,2,2,
-1,2,1,1,2,2,0,1,2,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,0,2,2,2,2,2,
-0,2,0,2,2,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,0,2,2,2,
-0,2,1,2,2,2,0,0,2,1,0,0,0,0,1,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,2,1,2,3,2,2,2,
-1,2,1,2,2,2,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,
-3,3,3,3,3,3,3,3,3,2,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,1,0,2,0,2,
-0,2,1,2,2,2,0,0,1,2,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,2,0,0,1,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,2,3,2,2,3,2,1,2,1,1,1,
-0,1,1,1,1,1,3,0,1,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
-3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0,0,1,0,0,1,0,0,0,0,
-0,0,1,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,
-0,2,0,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,3,3,3,2,3,3,3,2,1,2,3,3,2,3,3,3,3,2,3,2,1,2,0,2,1,2,
-0,2,0,2,2,2,0,0,1,2,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,
-3,3,3,3,3,3,3,3,3,2,3,3,3,1,2,2,3,3,2,3,2,3,2,2,3,1,2,2,0,2,2,2,
-0,2,1,2,2,2,0,0,1,2,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,2,3,3,2,2,2,3,3,3,3,1,3,2,2,2,
-0,2,0,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,3,3,3,2,3,2,2,2,1,2,2,0,2,2,2,2,
-0,2,0,2,2,2,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,1,3,2,3,3,2,3,3,2,2,1,2,2,2,2,2,2,
-0,2,1,2,1,2,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,2,3,2,3,3,2,3,3,3,3,2,3,2,3,3,3,3,3,2,2,2,2,2,2,2,1,
-0,2,0,1,2,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,3,3,3,2,1,2,3,3,3,3,3,3,3,2,3,2,3,2,1,2,3,0,2,1,2,2,
-0,2,1,1,2,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,
-3,3,3,3,3,3,3,3,3,2,3,3,3,3,2,1,3,1,2,2,2,1,2,3,3,1,2,1,2,2,2,2,
-0,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,3,3,0,2,3,3,3,1,3,3,3,1,2,2,2,2,1,1,2,2,2,2,2,2,
-0,2,0,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,2,3,3,3,2,2,3,3,3,2,1,2,3,2,3,2,2,2,2,1,2,1,1,1,2,2,
-0,2,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
-3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,1,0,0,0,0,0,
-1,0,1,0,0,0,0,0,2,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,2,3,3,2,3,1,2,2,2,2,3,2,3,1,1,2,2,1,2,2,1,1,0,2,2,2,2,
-0,1,0,1,2,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,
-3,0,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,0,
-0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,0,1,0,1,0,1,1,0,1,1,0,0,0,1,1,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
-3,2,2,1,2,2,2,2,2,2,2,1,2,2,1,2,2,1,1,1,1,1,1,1,1,2,1,1,0,3,3,3,
-0,3,0,2,2,2,2,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
-2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,1,2,2,2,1,1,1,2,0,1,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,0,2,2,0,0,0,0,0,0,
-0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,3,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,1,0,2,1,0,
-0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
-0,3,1,1,2,2,2,2,2,1,2,2,2,1,1,2,2,2,2,2,2,2,1,2,2,1,0,1,1,1,1,0,
-0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,2,1,1,1,1,2,1,1,2,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,
-0,0,2,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,0,0,
-2,1,1,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,1,2,1,2,1,1,1,1,0,0,0,0,
-0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,2,1,2,2,2,2,2,2,2,2,2,2,1,2,1,2,1,1,2,1,1,1,2,1,2,1,2,0,1,0,1,
-0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,1,2,2,2,1,2,2,2,2,2,2,2,2,1,2,1,1,1,1,1,1,2,1,2,1,1,0,1,0,1,
-0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,1,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,
-0,2,0,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
-3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,1,1,1,1,1,1,1,0,1,1,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,2,0,1,1,1,0,1,0,0,0,1,1,0,1,1,0,0,0,0,0,1,1,0,0,
-0,1,1,1,2,1,2,2,2,0,2,0,2,0,1,1,2,1,1,1,1,2,1,0,1,1,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,0,1,0,0,0,0,0,1,0,1,2,2,0,1,0,0,1,1,2,2,1,2,0,2,0,0,0,1,2,0,1,
-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,2,0,2,1,2,0,2,0,0,1,1,1,1,1,1,0,1,0,0,0,1,0,0,1,
-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,1,0,0,0,0,0,1,0,2,1,1,0,1,0,0,1,1,1,2,2,0,0,1,0,0,0,1,0,0,1,
-1,1,2,1,0,1,1,1,0,1,0,1,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,2,2,1,
-0,2,0,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,1,0,0,1,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,1,1,1,1,1,1,1,1,2,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,1,0,1,1,0,1,0,0,0,1,1,0,1,
-2,0,1,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,1,1,2,1,1,2,0,1,0,0,0,1,1,0,1,
-1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,0,1,1,2,0,1,0,0,0,0,2,1,1,2,0,2,0,0,0,1,1,0,1,
-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,0,2,1,1,0,1,0,0,2,2,1,2,1,1,0,1,0,0,0,1,1,0,1,
-2,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,1,2,2,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,1,0,1,
-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,1,2,2,0,0,0,0,2,1,1,1,0,2,1,1,0,0,0,2,1,0,1,
-1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,0,1,1,2,0,1,0,0,1,1,0,2,1,1,0,1,0,0,0,1,1,0,1,
-2,2,1,1,1,0,1,1,0,1,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,0,2,1,1,0,1,0,0,1,1,0,1,2,1,0,2,0,0,0,1,1,0,1,
-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,
-0,1,0,0,2,0,2,1,1,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,0,1,1,2,0,1,0,0,1,1,1,0,1,0,0,1,0,0,0,1,0,0,1,
-1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,2,1,1,1,1,1,0,1,0,0,0,0,1,0,1,
-0,1,1,1,2,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,1,2,1,0,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,1,0,0
-];
-
-jschardet.Win1255HebrewModel = {
-    "charToOrderMap"        : jschardet.win1255_CharToOrderMap,
-    "precedenceMatrix"      : jschardet.HebrewLangModel,
-    "mTypicalPositiveRatio" : 0.984004,
-    "keepEnglishLetter"     : false,
-    "charsetName"           : "windows-1255"
-};
-
-}(require('./init'));
-
-},{"./init":20}],27:[function(require,module,exports){
-/*
- * The Original Code is Mozilla Universal charset detector code.
- *
- * The Initial Developer of the Original Code is
- * Netscape Communications Corporation.
- * Portions created by the Initial Developer are Copyright (C) 2001
- * the Initial Developer. All Rights Reserved.
- *
- * Contributor(s):
- *   António Afonso (antonio.afonso gmail.com) - port to JavaScript
- *   Mark Pilgrim - port to Python
- *   Shy Shalom - original C code
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
- * 02110-1301  USA
- */
-
-!function(jschardet) {
-
-// 255: Control characters that usually does not exist in any text
-// 254: Carriage/Return
-// 253: symbol (punctuation) that does not belong to word
-// 252: 0 - 9
-
-// Character Mapping Table:
-jschardet.Latin2_HungarianCharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253, 28, 40, 54, 45, 32, 50, 49, 38, 39, 53, 36, 41, 34, 35, 47,
- 46, 71, 43, 33, 37, 57, 48, 64, 68, 55, 52,253,253,253,253,253,
-253,  2, 18, 26, 17,  1, 27, 12, 20,  9, 22,  7,  6, 13,  4,  8,
- 23, 67, 10,  5,  3, 21, 19, 65, 62, 16, 11,253,253,253,253,253,
-159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,
-175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,
-191,192,193,194,195,196,197, 75,198,199,200,201,202,203,204,205,
- 79,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,
-221, 51, 81,222, 78,223,224,225,226, 44,227,228,229, 61,230,231,
-232,233,234, 58,235, 66, 59,236,237,238, 60, 69, 63,239,240,241,
- 82, 14, 74,242, 70, 80,243, 72,244, 15, 83, 77, 84, 30, 76, 85,
-245,246,247, 25, 73, 42, 24,248,249,250, 31, 56, 29,251,252,253
-]
-
-jschardet.win1250HungarianCharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253, 28, 40, 54, 45, 32, 50, 49, 38, 39, 53, 36, 41, 34, 35, 47,
- 46, 72, 43, 33, 37, 57, 48, 64, 68, 55, 52,253,253,253,253,253,
-253,  2, 18, 26, 17,  1, 27, 12, 20,  9, 22,  7,  6, 13,  4,  8,
- 23, 67, 10,  5,  3, 21, 19, 65, 62, 16, 11,253,253,253,253,253,
-161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,
-177,178,179,180, 78,181, 69,182,183,184,185,186,187,188,189,190,
-191,192,193,194,195,196,197, 76,198,199,200,201,202,203,204,205,
- 81,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,
-221, 51, 83,222, 80,223,224,225,226, 44,227,228,229, 61,230,231,
-232,233,234, 58,235, 66, 59,236,237,238, 60, 70, 63,239,240,241,
- 84, 14, 75,242, 71, 82,243, 73,244, 15, 85, 79, 86, 30, 77, 87,
-245,246,247, 25, 74, 42, 24,248,249,250, 31, 56, 29,251,252,253
-];
-
-// Model Table:
-// total sequences: 100%
-// first 512 sequences: 94.7368%
-// first 1024 sequences:5.2623%
-// rest  sequences:     0.8894%
-// negative sequences:  0.0009%
-jschardet.HungarianLangModel = [
-0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
-3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,3,2,2,3,3,1,1,2,2,2,2,2,1,2,
-3,2,2,3,3,3,3,3,2,3,3,3,3,3,3,1,2,3,3,3,3,2,3,3,1,1,3,3,0,1,1,1,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,
-3,2,1,3,3,3,3,3,2,3,3,3,3,3,1,1,2,3,3,3,3,3,3,3,1,1,3,2,0,1,1,1,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,3,3,3,3,3,1,1,2,3,3,3,1,3,3,3,3,3,1,3,3,2,2,0,3,2,3,
-0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
-3,3,3,3,3,3,2,3,3,3,2,3,3,2,3,3,3,3,3,2,3,3,2,2,3,2,3,2,0,3,2,2,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,
-3,3,3,3,3,3,2,3,3,3,3,3,2,3,3,3,1,2,3,2,2,3,1,2,3,3,2,2,0,3,3,3,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,3,3,2,2,3,3,3,3,3,3,2,3,3,3,3,2,3,3,3,3,0,2,3,2,
-0,0,0,1,1,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,3,3,3,1,1,1,3,3,2,1,3,2,2,3,2,1,3,2,2,1,0,3,3,1,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
-3,2,2,3,3,3,3,3,1,2,3,3,3,3,1,2,1,3,3,3,3,2,2,3,1,1,3,2,0,1,1,1,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
-3,3,3,3,3,3,3,3,2,2,3,3,3,3,3,2,1,3,3,3,3,3,2,2,1,3,3,3,0,1,1,2,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,2,3,3,2,3,3,3,2,0,3,2,3,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,
-3,3,3,3,3,3,2,3,3,3,2,3,2,3,3,3,1,3,2,2,2,3,1,1,3,3,1,1,0,3,3,2,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,2,3,3,3,2,3,2,3,3,3,2,3,3,3,3,3,1,2,3,2,2,0,2,2,2,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
-3,3,3,2,2,2,3,1,3,3,2,2,1,3,3,3,1,1,3,1,2,3,2,3,2,2,2,1,0,2,2,2,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
-3,1,1,3,3,3,3,3,1,2,3,3,3,3,1,2,1,3,3,3,2,2,3,2,1,0,3,2,0,1,1,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,1,1,3,3,3,3,3,1,2,3,3,3,3,1,1,0,3,3,3,3,0,2,3,0,0,2,1,0,1,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,2,2,3,3,2,2,2,2,3,3,0,1,2,3,2,3,2,2,3,2,1,2,0,2,2,2,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
-3,3,3,3,3,3,1,2,3,3,3,2,1,2,3,3,2,2,2,3,2,3,3,1,3,3,1,1,0,2,3,2,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
-3,3,3,1,2,2,2,2,3,3,3,1,1,1,3,3,1,1,3,1,1,3,2,1,2,3,1,1,0,2,2,2,
-0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
-3,3,3,2,1,2,1,1,3,3,1,1,1,1,3,3,1,1,2,2,1,2,1,1,2,2,1,1,0,2,2,1,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
-3,3,3,1,1,2,1,1,3,3,1,0,1,1,3,3,2,0,1,1,2,3,1,0,2,2,1,0,0,1,3,2,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
-3,2,1,3,3,3,3,3,1,2,3,2,3,3,2,1,1,3,2,3,2,1,2,2,0,1,2,1,0,0,1,1,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
-3,3,3,3,2,2,2,2,3,1,2,2,1,1,3,3,0,3,2,1,2,3,2,1,3,3,1,1,0,2,1,3,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
-3,3,3,2,2,2,3,2,3,3,3,2,1,1,3,3,1,1,1,2,2,3,2,3,2,2,2,1,0,2,2,1,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
-1,0,0,3,3,3,3,3,0,0,3,3,2,3,0,0,0,2,3,3,1,0,1,2,0,0,1,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,1,2,3,3,3,3,3,1,2,3,3,2,2,1,1,0,3,3,2,2,1,2,2,1,0,2,2,0,1,1,1,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,2,2,1,3,1,2,3,3,2,2,1,1,2,2,1,1,1,1,3,2,1,1,1,1,2,1,0,1,2,1,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
-2,3,3,1,1,1,1,1,3,3,3,0,1,1,3,3,1,1,1,1,1,2,2,0,3,1,1,2,0,2,1,1,
-0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
-3,1,0,1,2,1,2,2,0,1,2,3,1,2,0,0,0,2,1,1,1,1,1,2,0,0,1,1,0,0,0,0,
-1,2,1,2,2,2,1,2,1,2,0,2,0,2,2,1,1,2,1,1,2,1,1,1,0,1,0,0,0,1,1,0,
-1,1,1,2,3,2,3,3,0,1,2,2,3,1,0,1,0,2,1,2,2,0,1,1,0,0,1,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,0,0,3,3,2,2,1,0,0,3,2,3,2,0,0,0,1,1,3,0,0,1,1,0,0,2,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,1,1,2,2,3,3,1,0,1,3,2,3,1,1,1,0,1,1,1,1,1,3,1,0,0,2,2,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,1,1,1,2,2,2,1,0,1,2,3,3,2,0,0,0,2,1,1,1,2,1,1,1,0,1,1,1,0,0,0,
-1,2,2,2,2,2,1,1,1,2,0,2,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,0,0,1,1,
-3,2,2,1,0,0,1,1,2,2,0,3,0,1,2,1,1,0,0,1,1,1,0,1,1,1,1,0,2,1,1,1,
-2,2,1,1,1,2,1,2,1,1,1,1,1,1,1,2,1,1,1,2,3,1,1,1,1,1,1,1,1,1,0,1,
-2,3,3,0,1,0,0,0,3,3,1,0,0,1,2,2,1,0,0,0,0,2,0,0,1,1,1,0,2,1,1,1,
-2,1,1,1,1,1,1,2,1,1,0,1,1,0,1,1,1,0,1,2,1,1,0,1,1,1,1,1,1,1,0,1,
-2,3,3,0,1,0,0,0,2,2,0,0,0,0,1,2,2,0,0,0,0,1,0,0,1,1,0,0,2,0,1,0,
-2,1,1,1,1,2,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,2,0,1,1,1,1,1,0,1,
-3,2,2,0,1,0,1,0,2,3,2,0,0,1,2,2,1,0,0,1,1,1,0,0,2,1,0,1,2,2,1,1,
-2,1,1,1,1,1,1,2,1,1,1,1,1,1,0,2,1,0,1,1,0,1,1,1,0,1,1,2,1,1,0,1,
-2,2,2,0,0,1,0,0,2,2,1,1,0,0,2,1,1,0,0,0,1,2,0,0,2,1,0,0,2,1,1,1,
-2,1,1,1,1,2,1,2,1,1,1,2,2,1,1,2,1,1,1,2,1,1,1,1,1,1,1,1,1,1,0,1,
-1,2,3,0,0,0,1,0,3,2,1,0,0,1,2,1,1,0,0,0,0,2,1,0,1,1,0,0,2,1,2,1,
-1,1,0,0,0,1,0,1,1,1,1,1,2,0,0,1,0,0,0,2,0,0,1,1,1,1,1,1,1,1,0,1,
-3,0,0,2,1,2,2,1,0,0,2,1,2,2,0,0,0,2,1,1,1,0,1,1,0,0,1,1,2,0,0,0,
-1,2,1,2,2,1,1,2,1,2,0,1,1,1,1,1,1,1,1,1,2,1,1,0,0,1,1,1,1,0,0,1,
-1,3,2,0,0,0,1,0,2,2,2,0,0,0,2,2,1,0,0,0,0,3,1,1,1,1,0,0,2,1,1,1,
-2,1,0,1,1,1,0,1,1,1,1,1,1,1,0,2,1,0,0,1,0,1,1,0,1,1,1,1,1,1,0,1,
-2,3,2,0,0,0,1,0,2,2,0,0,0,0,2,1,1,0,0,0,0,2,1,0,1,1,0,0,2,1,1,0,
-2,1,1,1,1,2,1,2,1,2,0,1,1,1,0,2,1,1,1,2,1,1,1,1,0,1,1,1,1,1,0,1,
-3,1,1,2,2,2,3,2,1,1,2,2,1,1,0,1,0,2,2,1,1,1,1,1,0,0,1,1,0,1,1,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,2,2,0,0,0,0,0,2,2,0,0,0,0,2,2,1,0,0,0,1,1,0,0,1,2,0,0,2,1,1,1,
-2,2,1,1,1,2,1,2,1,1,0,1,1,1,1,2,1,1,1,2,1,1,1,1,0,1,2,1,1,1,0,1,
-1,0,0,1,2,3,2,1,0,0,2,0,1,1,0,0,0,1,1,1,1,0,1,1,0,0,1,0,0,0,0,0,
-1,2,1,2,1,2,1,1,1,2,0,2,1,1,1,0,1,2,0,0,1,1,1,0,0,0,0,0,0,0,0,0,
-2,3,2,0,0,0,0,0,1,1,2,1,0,0,1,1,1,0,0,0,0,2,0,0,1,1,0,0,2,1,1,1,
-2,1,1,1,1,1,1,2,1,0,1,1,1,1,0,2,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,
-1,2,2,0,1,1,1,0,2,2,2,0,0,0,3,2,1,0,0,0,1,1,0,0,1,1,0,1,1,1,0,0,
-1,1,0,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,2,1,1,1,0,0,1,1,1,0,1,0,1,
-2,1,0,2,1,1,2,2,1,1,2,1,1,1,0,0,0,1,1,0,1,1,1,1,0,0,1,1,1,0,0,0,
-1,2,2,2,2,2,1,1,1,2,0,2,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,
-1,2,3,0,0,0,1,0,2,2,0,0,0,0,2,2,0,0,0,0,0,1,0,0,1,0,0,0,2,0,1,0,
-2,1,1,1,1,1,0,2,0,0,0,1,2,1,1,1,1,0,1,2,0,1,0,1,0,1,1,1,0,1,0,1,
-2,2,2,0,0,0,1,0,2,1,2,0,0,0,1,1,2,0,0,0,0,1,0,0,1,1,0,0,2,1,0,1,
-2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,0,1,1,1,1,1,0,1,
-1,2,2,0,0,0,1,0,2,2,2,0,0,0,1,1,0,0,0,0,0,1,1,0,2,0,0,1,1,1,0,1,
-1,0,1,1,1,1,1,1,0,1,1,1,1,0,0,1,0,0,1,1,0,1,0,1,1,1,1,1,0,0,0,1,
-1,0,0,1,0,1,2,1,0,0,1,1,1,2,0,0,0,1,1,0,1,0,1,1,0,0,1,0,0,0,0,0,
-0,2,1,2,1,1,1,1,1,2,0,2,0,1,1,0,1,2,1,0,1,1,1,0,0,0,0,0,0,1,0,0,
-2,1,1,0,1,2,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,2,1,0,1,
-2,2,1,1,1,1,1,2,1,1,0,1,1,1,1,2,1,1,1,2,1,1,0,1,0,1,1,1,1,1,0,1,
-1,2,2,0,0,0,0,0,1,1,0,0,0,0,2,1,0,0,0,0,0,2,0,0,2,2,0,0,2,0,0,1,
-2,1,1,1,1,1,1,1,0,1,1,0,1,1,0,1,0,0,0,1,1,1,1,0,0,1,1,1,1,0,0,1,
-1,1,2,0,0,3,1,0,2,1,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,0,1,0,1,0,
-1,2,1,0,1,1,1,2,1,1,0,1,1,1,1,1,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,
-2,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,2,0,0,0,
-2,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,2,1,1,0,0,1,1,1,1,1,0,1,
-2,1,1,1,2,1,1,1,0,1,1,2,1,0,0,0,0,1,1,1,1,0,1,0,0,0,0,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,1,0,1,1,1,1,1,0,0,1,1,2,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,1,0,0,0,
-1,2,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,0,1,1,1,0,0,0,0,0,0,1,0,0,
-2,0,0,0,1,1,1,1,0,0,1,1,0,0,0,0,0,1,1,1,2,0,0,1,0,0,1,0,1,0,0,0,
-0,1,1,1,1,1,1,1,1,2,0,1,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,
-1,0,0,1,1,1,1,1,0,0,2,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,
-0,1,1,1,1,1,1,0,1,1,0,1,0,1,1,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,
-1,0,0,1,1,1,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,
-0,1,1,1,1,1,0,0,1,1,0,1,0,1,0,0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,
-0,0,0,1,0,0,0,0,0,0,1,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,1,1,1,0,1,0,0,1,1,0,1,0,1,1,0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,
-2,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,0,1,0,0,1,0,1,0,1,1,1,0,0,1,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,0,0,1,1,1,1,0,0,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,
-0,1,1,1,1,1,1,0,1,1,0,1,0,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0
-];
-
-jschardet.Latin2HungarianModel = {
-    "charToOrderMap"        : jschardet.Latin2_HungarianCharToOrderMap,
-    "precedenceMatrix"      : jschardet.HungarianLangModel,
-    "mTypicalPositiveRatio" : 0.947368,
-    "keepEnglishLetter"     : true,
-    "charsetName"           : "ISO-8859-2"
-};
-
-jschardet.Win1250HungarianModel = {
-    "charToOrderMap"        : jschardet.win1250HungarianCharToOrderMap,
-    "precedenceMatrix"      : jschardet.HungarianLangModel,
-    "mTypicalPositiveRatio" : 0.947368,
-    "keepEnglishLetter"     : true,
-    "charsetName"           : "windows-1250"
-};
-
-}(require('./init'));
-
-},{"./init":20}],28:[function(require,module,exports){
-/*
- * The Original Code is Mozilla Universal charset detector code.
- *
- * The Initial Developer of the Original Code is
- * Netscape Communications Corporation.
- * Portions created by the Initial Developer are Copyright (C) 2001
- * the Initial Developer. All Rights Reserved.
- *
- * Contributor(s):
- *   António Afonso (antonio.afonso gmail.com) - port to JavaScript
- *   Mark Pilgrim - port to Python
- *   Shy Shalom - original C code
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
- * 02110-1301  USA
- */
-
-!function(jschardet) {
-
-// 255: Control characters that usually does not exist in any text
-// 254: Carriage/Return
-// 253: symbol (punctuation) that does not belong to word
-// 252: 0 - 9
-
-// The following result for thai was collected from a limited sample (1M).
-
-// Character Mapping Table:
-jschardet.TIS620CharToOrderMap = [
-255,255,255,255,255,255,255,255,255,255,254,255,255,254,255,255,  // 00
-255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,  // 10
-253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,  // 20
-252,252,252,252,252,252,252,252,252,252,253,253,253,253,253,253,  // 30
-253,182,106,107,100,183,184,185,101, 94,186,187,108,109,110,111,  // 40
-188,189,190, 89, 95,112,113,191,192,193,194,253,253,253,253,253,  // 50
-253, 64, 72, 73,114, 74,115,116,102, 81,201,117, 90,103, 78, 82,  // 60
- 96,202, 91, 79, 84,104,105, 97, 98, 92,203,253,253,253,253,253,  // 70
-209,210,211,212,213, 88,214,215,216,217,218,219,220,118,221,222,
-223,224, 99, 85, 83,225,226,227,228,229,230,231,232,233,234,235,
-236,  5, 30,237, 24,238, 75,  8, 26, 52, 34, 51,119, 47, 58, 57,
- 49, 53, 55, 43, 20, 19, 44, 14, 48,  3, 17, 25, 39, 62, 31, 54,
- 45,  9, 16,  2, 61, 15,239, 12, 42, 46, 18, 21, 76,  4, 66, 63,
- 22, 10,  1, 36, 23, 13, 40, 27, 32, 35, 86,240,241,242,243,244,
- 11, 28, 41, 29, 33,245, 50, 37,  6,  7, 67, 77, 38, 93,246,247,
- 68, 56, 59, 65, 69, 60, 70, 80, 71, 87,248,249,250,251,252,253
-];
-
-// Model Table:
-// total sequences: 100%
-// first 512 sequences: 92.6386%
-// first 1024 sequences:7.3177%
-// rest  sequences:     1.0230%
-// negative sequences:  0.0436%
-jschardet.ThaiLangModel = [
-0,1,3,3,3,3,0,0,3,3,0,3,3,0,3,3,3,3,3,3,3,3,0,0,3,3,3,0,3,3,3,3,
-0,3,3,0,0,0,1,3,0,3,3,2,3,3,0,1,2,3,3,3,3,0,2,0,2,0,0,3,2,1,2,2,
-3,0,3,3,2,3,0,0,3,3,0,3,3,0,3,3,3,3,3,3,3,3,3,0,3,2,3,0,2,2,2,3,
-0,2,3,0,0,0,0,1,0,1,2,3,1,1,3,2,2,0,1,1,0,0,1,0,0,0,0,0,0,0,1,1,
-3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,3,3,2,3,2,3,3,2,2,2,
-3,1,2,3,0,3,3,2,2,1,2,3,3,1,2,0,1,3,0,1,0,0,1,0,0,0,0,0,0,0,1,1,
-3,3,2,2,3,3,3,3,1,2,3,3,3,3,3,2,2,2,2,3,3,2,2,3,3,2,2,3,2,3,2,2,
-3,3,1,2,3,1,2,2,3,3,1,0,2,1,0,0,3,1,2,1,0,0,1,0,0,0,0,0,0,1,0,1,
-3,3,3,3,3,3,2,2,3,3,3,3,2,3,2,2,3,3,2,2,3,2,2,2,2,1,1,3,1,2,1,1,
-3,2,1,0,2,1,0,1,0,1,1,0,1,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,
-3,3,3,2,3,2,3,3,2,2,3,2,3,3,2,3,1,1,2,3,2,2,2,3,2,2,2,2,2,1,2,1,
-2,2,1,1,3,3,2,1,0,1,2,2,0,1,3,0,0,0,1,1,0,0,0,0,0,2,3,0,0,2,1,1,
-3,3,2,3,3,2,0,0,3,3,0,3,3,0,2,2,3,1,2,2,1,1,1,0,2,2,2,0,2,2,1,1,
-0,2,1,0,2,0,0,2,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,
-3,3,2,3,3,2,0,0,3,3,0,2,3,0,2,1,2,2,2,2,1,2,0,0,2,2,2,0,2,2,1,1,
-0,2,1,0,2,0,0,2,0,1,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,
-3,3,2,3,2,3,2,0,2,2,1,3,2,1,3,2,1,2,3,2,2,3,0,2,3,2,2,1,2,2,2,2,
-1,2,2,0,0,0,0,2,0,1,2,0,1,1,1,0,1,0,3,1,1,0,0,0,0,0,0,0,0,0,1,0,
-3,3,2,3,3,2,3,2,2,2,3,2,2,3,2,2,1,2,3,2,2,3,1,3,2,2,2,3,2,2,2,3,
-3,2,1,3,0,1,1,1,0,2,1,1,1,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,2,0,0,
-1,0,0,3,0,3,3,3,3,3,0,0,3,0,2,2,3,3,3,3,3,0,0,0,1,1,3,0,0,0,0,2,
-0,0,1,0,0,0,0,0,0,0,2,3,0,0,0,3,0,2,0,0,0,0,0,3,0,0,0,0,0,0,0,0,
-2,0,3,3,3,3,0,0,2,3,0,0,3,0,3,3,2,3,3,3,3,3,0,0,3,3,3,0,0,0,3,3,
-0,0,3,0,0,0,0,2,0,0,2,1,1,3,0,0,1,0,0,2,3,0,1,0,0,0,0,0,0,0,1,0,
-3,3,3,3,2,3,3,3,3,3,3,3,1,2,1,3,3,2,2,1,2,2,2,3,1,1,2,0,2,1,2,1,
-2,2,1,0,0,0,1,1,0,1,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,
-3,0,2,1,2,3,3,3,0,2,0,2,2,0,2,1,3,2,2,1,2,1,0,0,2,2,1,0,2,1,2,2,
-0,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,2,1,3,3,1,1,3,0,2,3,1,1,3,2,1,1,2,0,2,2,3,2,1,1,1,1,1,2,
-3,0,0,1,3,1,2,1,2,0,3,0,0,0,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
-3,3,1,1,3,2,3,3,3,1,3,2,1,3,2,1,3,2,2,2,2,1,3,3,1,2,1,3,1,2,3,0,
-2,1,1,3,2,2,2,1,2,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,
-3,3,2,3,2,3,3,2,3,2,3,2,3,3,2,1,0,3,2,2,2,1,2,2,2,1,2,2,1,2,1,1,
-2,2,2,3,0,1,3,1,1,1,1,0,1,1,0,2,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,2,3,2,2,1,1,3,2,3,2,3,2,0,3,2,2,1,2,0,2,2,2,1,2,2,2,2,1,
-3,2,1,2,2,1,0,2,0,1,0,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,
-3,3,3,3,3,2,3,1,2,3,3,2,2,3,0,1,1,2,0,3,3,2,2,3,0,1,1,3,0,0,0,0,
-3,1,0,3,3,0,2,0,2,1,0,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,2,3,2,3,3,0,1,3,1,1,2,1,2,1,1,3,1,1,0,2,3,1,1,1,1,1,1,1,1,
-3,1,1,2,2,2,2,1,1,1,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-3,2,2,1,1,2,1,3,3,2,3,2,2,3,2,2,3,1,2,2,1,2,0,3,2,1,2,2,2,2,2,1,
-3,2,1,2,2,2,1,1,1,1,0,0,1,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,3,3,3,3,1,3,3,0,2,1,0,3,2,0,0,3,1,0,1,1,0,1,0,0,0,0,0,1,
-1,0,0,1,0,3,2,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,0,2,2,2,3,0,0,1,3,0,3,2,0,3,2,2,3,3,3,3,3,1,0,2,2,2,0,2,2,1,2,
-0,2,3,0,0,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-3,0,2,3,1,3,3,2,3,3,0,3,3,0,3,2,2,3,2,3,3,3,0,0,2,2,3,0,1,1,1,3,
-0,0,3,0,0,0,2,2,0,1,3,0,1,2,2,2,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,
-3,2,3,3,2,0,3,3,2,2,3,1,3,2,1,3,2,0,1,2,2,0,2,3,2,1,0,3,0,0,0,0,
-3,0,0,2,3,1,3,0,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,1,3,2,2,2,1,2,0,1,3,1,1,3,1,3,0,0,2,1,1,1,1,2,1,1,1,0,2,1,0,1,
-1,2,0,0,0,3,1,1,0,0,0,0,1,0,1,0,0,1,0,1,0,0,0,0,0,3,1,0,0,0,1,0,
-3,3,3,3,2,2,2,2,2,1,3,1,1,1,2,0,1,1,2,1,2,1,3,2,0,0,3,1,1,1,1,1,
-3,1,0,2,3,0,0,0,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,2,3,0,3,3,0,2,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
-0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,2,3,1,3,0,0,1,2,0,0,2,0,3,3,2,3,3,3,2,3,0,0,2,2,2,0,0,0,2,2,
-0,0,1,0,0,0,0,3,0,0,0,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,
-0,0,0,3,0,2,0,0,0,0,0,0,0,0,0,0,1,2,3,1,3,3,0,0,1,0,3,0,0,0,0,0,
-0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,1,2,3,1,2,3,1,0,3,0,2,2,1,0,2,1,1,2,0,1,0,0,1,1,1,1,0,1,0,0,
-1,0,0,0,0,1,1,0,3,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,3,3,2,1,0,1,1,1,3,1,2,2,2,2,2,2,1,1,1,1,0,3,1,0,1,3,1,1,1,1,
-1,1,0,2,0,1,3,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,
-3,0,2,2,1,3,3,2,3,3,0,1,1,0,2,2,1,2,1,3,3,1,0,0,3,2,0,0,0,0,2,1,
-0,1,0,0,0,0,1,2,0,1,1,3,1,1,2,2,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
-0,0,3,0,0,1,0,0,0,3,0,0,3,0,3,1,0,1,1,1,3,2,0,0,0,3,0,0,0,0,2,0,
-0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,
-3,3,1,3,2,1,3,3,1,2,2,0,1,2,1,0,1,2,0,0,0,0,0,3,0,0,0,3,0,0,0,0,
-3,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,0,1,2,0,3,3,3,2,2,0,1,1,0,1,3,0,0,0,2,2,0,0,0,0,3,1,0,1,0,0,0,
-0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,0,2,3,1,2,0,0,2,1,0,3,1,0,1,2,0,1,1,1,1,3,0,0,3,1,1,0,2,2,1,1,
-0,2,0,0,0,0,0,1,0,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,0,0,3,1,2,0,0,2,2,0,1,2,0,1,0,1,3,1,2,1,0,0,0,2,0,3,0,0,0,1,0,
-0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,0,1,1,2,2,0,0,0,2,0,2,1,0,1,1,0,1,1,1,2,1,0,0,1,1,1,0,2,1,1,1,
-0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,
-0,0,0,2,0,1,3,1,1,1,1,0,0,0,0,3,2,0,1,0,0,0,1,2,0,0,0,1,0,0,0,0,
-0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,0,2,3,2,2,0,0,0,1,0,0,0,0,2,3,2,1,2,2,3,0,0,0,2,3,1,0,0,0,1,1,
-0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,
-3,3,2,2,0,1,0,0,0,0,2,0,2,0,1,0,0,0,1,1,0,0,0,2,1,0,1,0,1,1,0,0,
-0,1,0,2,0,0,1,0,3,0,1,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,1,0,0,1,0,0,0,0,0,1,1,2,0,0,0,0,1,0,0,1,3,1,0,0,0,0,1,1,0,0,
-0,1,0,0,0,0,3,0,0,0,0,0,0,3,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,
-3,3,1,1,1,1,2,3,0,0,2,1,1,1,1,1,0,2,1,1,0,0,0,2,1,0,1,2,1,1,0,1,
-2,1,0,3,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,3,1,0,0,0,0,0,0,0,3,0,0,0,3,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,
-0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,3,2,0,0,0,0,0,0,1,2,1,0,1,1,0,2,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,2,0,0,0,1,3,0,1,0,0,0,2,0,0,0,0,0,0,0,1,2,0,0,0,0,0,
-3,3,0,0,1,1,2,0,0,1,2,1,0,1,1,1,0,1,1,0,0,2,1,1,0,1,0,0,1,1,1,0,
-0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,2,2,1,0,0,0,0,1,0,0,0,0,3,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,
-2,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,3,0,0,1,1,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,1,0,1,2,0,1,2,0,0,1,1,0,2,0,1,0,0,1,0,0,0,0,1,0,0,0,2,0,0,0,0,
-1,0,0,1,0,1,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,1,0,0,0,0,0,0,0,1,1,0,1,1,0,2,1,3,0,0,0,0,1,1,0,0,0,0,0,0,0,3,
-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,0,1,0,1,0,0,2,0,0,2,0,0,1,1,2,0,0,1,1,0,0,0,1,0,0,0,1,1,0,0,0,
-1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,
-1,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0,0,0,
-2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,0,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,3,0,0,0,
-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,
-1,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,1,1,0,0,2,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-];
-
-jschardet.TIS620ThaiModel = {
-    "charToOrderMap"        : jschardet.TIS620CharToOrderMap,
-    "precedenceMatrix"      : jschardet.ThaiLangModel,
-    "mTypicalPositiveRatio" : 0.926386,
-    "keepEnglishLetter"     : false,
-    "charsetName"           : "TIS-620"
-};
-
-}(require('./init'));
-
-},{"./init":20}],29:[function(require,module,exports){
-/*
- * The Original Code is Mozilla Universal charset detector code.
- *
- * The Initial Developer of the Original Code is
- * Netscape Communications Corporation.
- * Portions created by the Initial Developer are Copyright (C) 2001
- * the Initial Developer. All Rights Reserved.
- *
- * Contributor(s):
- *   António Afonso (antonio.afonso gmail.com) - port to JavaScript
- *   Mark Pilgrim - port to Python
- *   Shy Shalom - original C code
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
- * 02110-1301  USA
- */
-
-!function(jschardet) {
-
-(function() {
-    var UDF = 0; // undefined
-    var OTH = 1; // other
-    jschardet.OTH = 1;
-    var ASC = 2; // ascii capital letter
-    var ASS = 3; // ascii small letter
-    var ACV = 4; // accent capital vowel
-    var ACO = 5; // accent capital other
-    var ASV = 6; // accent small vowel
-    var ASO = 7; // accent small other
-
-    jschardet.Latin1_CharToClass = [
-      OTH, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // 00 - 07
-      OTH, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // 08 - 0F
-      OTH, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // 10 - 17
-      OTH, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // 18 - 1F
-      OTH, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // 20 - 27
-      OTH, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // 28 - 2F
-      OTH, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // 30 - 37
-      OTH, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // 38 - 3F
-      OTH, ASC, ASC, ASC, ASC, ASC, ASC, ASC,   // 40 - 47
-      ASC, ASC, ASC, ASC, ASC, ASC, ASC, ASC,   // 48 - 4F
-      ASC, ASC, ASC, ASC, ASC, ASC, ASC, ASC,   // 50 - 57
-      ASC, ASC, ASC, OTH, OTH, OTH, OTH, OTH,   // 58 - 5F
-      OTH, ASS, ASS, ASS, ASS, ASS, ASS, ASS,   // 60 - 67
-      ASS, ASS, ASS, ASS, ASS, ASS, ASS, ASS,   // 68 - 6F
-      ASS, ASS, ASS, ASS, ASS, ASS, ASS, ASS,   // 70 - 77
-      ASS, ASS, ASS, OTH, OTH, OTH, OTH, OTH,   // 78 - 7F
-      OTH, UDF, OTH, ASO, OTH, OTH, OTH, OTH,   // 80 - 87
-      OTH, OTH, ACO, OTH, ACO, UDF, ACO, UDF,   // 88 - 8F
-      UDF, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // 90 - 97
-      OTH, OTH, ASO, OTH, ASO, UDF, ASO, ACO,   // 98 - 9F
-      OTH, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // A0 - A7
-      OTH, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // A8 - AF
-      OTH, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // B0 - B7
-      OTH, OTH, OTH, OTH, OTH, OTH, OTH, OTH,   // B8 - BF
-      ACV, ACV, ACV, ACV, ACV, ACV, ACO, ACO,   // C0 - C7
-      ACV, ACV, ACV, ACV, ACV, ACV, ACV, ACV,   // C8 - CF
-      ACO, ACO, ACV, ACV, ACV, ACV, ACV, OTH,   // D0 - D7
-      ACV, ACV, ACV, ACV, ACV, ACO, ACO, ACO,   // D8 - DF
-      ASV, ASV, ASV, ASV, ASV, ASV, ASO, ASO,   // E0 - E7
-      ASV, ASV, ASV, ASV, ASV, ASV, ASV, ASV,   // E8 - EF
-      ASO, ASO, ASV, ASV, ASV, ASV, ASV, OTH,   // F0 - F7
-      ASV, ASV, ASV, ASV, ASV, ASO, ASO, ASO    // F8 - FF
-    ];
-
-    // 0 : illegal
-    // 1 : very unlikely
-    // 2 : normal
-    // 3 : very likely
-    jschardet.Latin1ClassModel = [
-    // UDF OTH ASC ASS ACV ACO ASV ASO
-       0,  0,  0,  0,  0,  0,  0,  0,  // UDF
-       0,  3,  3,  3,  3,  3,  3,  3,  // OTH
-       0,  3,  3,  3,  3,  3,  3,  3,  // ASC
-       0,  3,  3,  3,  1,  1,  3,  3,  // ASS
-       0,  3,  3,  3,  1,  2,  1,  2,  // ACV
-       0,  3,  3,  3,  3,  3,  3,  3,  // ACO
-       0,  3,  1,  3,  1,  1,  1,  3,  // ASV
-       0,  3,  1,  3,  1,  1,  3,  3   // ASO
-    ];
-})();
-
-jschardet.Latin1Prober = function() {
-    jschardet.CharSetProber.apply(this);
-
-    var FREQ_CAT_NUM = 4;
-    var CLASS_NUM = 8; // total classes
-    var self = this;
-
-    function init() {
-        self.reset();
-    }
-
-    this.reset = function() {
-        this._mLastCharClass = jschardet.OTH;
-        this._mFreqCounter = [];
-        for( var i = 0; i < FREQ_CAT_NUM; this._mFreqCounter[i++] = 0 );
-        jschardet.Latin1Prober.prototype.reset.apply(this);
-    }
-
-    this.getCharsetName = function() {
-        return "windows-1252";
-    }
-
-    this.feed = function(aBuf) {
-        aBuf = this.filterWithEnglishLetters(aBuf);
-        for( var i = 0; i < aBuf.length; i++ ) {
-            var c = aBuf.charCodeAt(i);
-            var charClass = jschardet.Latin1_CharToClass[c];
-            var freq = jschardet.Latin1ClassModel[(this._mLastCharClass * CLASS_NUM) + charClass];
-            if( freq == 0 ) {
-                this._mState = jschardet.Constants.notMe;
-                break;
-            }
-            this._mFreqCounter[freq]++;
-            this._mLastCharClass = charClass;
-        }
-
-        return this.getState();
-    }
-
-    this.getConfidence = function() {
-        if( this.getState() == jschardet.Constants.notMe ) {
-            return 0.01;
-        }
-
-        var total = 0;
-        for( var i = 0; i < this._mFreqCounter.length; i++ ) {
-            total += this._mFreqCounter[i];
-        }
-        if( total < 0.01 ) {
-            constants = 0.0;
-        } else {
-            confidence = (this._mFreqCounter[3] / total) - (this._mFreqCounter[1] * 20 / total);
-        }
-        if( confidence < 0 ) {
-            confidence = 0.0;
-        }
-        // lower the confidence of latin1 so that other more accurate detector
-        // can take priority.
-        //
-        // antonio.afonso: need to change this otherwise languages like pt, es, fr using latin1 will never be detected.
-        confidence = confidence * 0.95;
-        return confidence;
-    }
-
-    init();
-}
-jschardet.Latin1Prober.prototype = new jschardet.CharSetProber();
-
-}(require('./init'));
-
-},{"./init":20}],30:[function(require,module,exports){
+},{"./init":19}],22:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -6658,7 +4719,7 @@ jschardet.MultiByteCharSetProber.prototype = new jschardet.CharSetProber();
 
 }(require('./init'));
 
-},{"./init":20}],31:[function(require,module,exports){
+},{"./init":19}],23:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -6707,7 +4768,7 @@ jschardet.MBCSGroupProber.prototype = new jschardet.CharSetGroupProber();
 
 }(require('./init'));
 
-},{"./init":20}],32:[function(require,module,exports){
+},{"./init":19}],24:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -7265,7 +5326,7 @@ jschardet.UTF8SMModel = {
 
 }(require('./init'));
 
-},{"./init":20}],33:[function(require,module,exports){
+},{"./init":19}],25:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -7406,7 +5467,7 @@ jschardet.SingleByteCharSetProber.prototype = new jschardet.CharSetProber();
 
 }(require('./init'));
 
-},{"./init":20}],34:[function(require,module,exports){
+},{"./init":19}],26:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -7474,7 +5535,7 @@ jschardet.SBCSGroupProber.prototype = new jschardet.CharSetGroupProber();
 
 }(require('./init'));
 
-},{"./init":20}],35:[function(require,module,exports){
+},{"./init":19}],27:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -7577,7 +5638,7 @@ jschardet.SJISProber.prototype = new jschardet.MultiByteCharSetProber();
 
 }(require('./init'));
 
-},{"./init":20}],36:[function(require,module,exports){
+},{"./init":19}],28:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -7714,9 +5775,7 @@ jschardet.UniversalDetector = function() {
         } else if( this._mInputState == _state.highbyte ) {
             if( this._mCharsetProbers.length == 0 ) {
                 this._mCharsetProbers = [
-                    new jschardet.MBCSGroupProber(),
-                    new jschardet.SBCSGroupProber(),
-                    new jschardet.Latin1Prober()
+                    new jschardet.MBCSGroupProber()
                 ];
             }
             for( var i = 0, prober; prober = this._mCharsetProbers[i]; i++ ) {
@@ -7789,7 +5848,7 @@ jschardet.UniversalDetector = function() {
 
 }(require('./init'));
 
-},{"./init":20}],37:[function(require,module,exports){
+},{"./init":19}],29:[function(require,module,exports){
 /*
  * The Original Code is Mozilla Universal charset detector code.
  *
@@ -7886,5 +5945,5 @@ jschardet.UTF8Prober.prototype = new jschardet.CharSetProber();
 
 }(require('./init'));
 
-},{"./init":20}]},{},[1])(1)
+},{"./init":19}]},{},[1])(1)
 });
